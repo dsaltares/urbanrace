@@ -5,7 +5,7 @@ accompanied by brief explanations. For layout reasons we have divided the whole
 system in several subsystems using their purpose as criteria to separate them.
 For every design decision, a justification will be provided.\\
 
-\subsection{System and states}
+\section{System and states}
 \label{sec:design-system}
 
 Firstly, we have an application and states management layer which is responsible for
@@ -50,7 +50,7 @@ shown in figure~\ref{fig:system-classes}.
 	process.
 \end{itemize}
 
-\subsection{Game state}
+\section{Game state}
 
 The Game state system is responsible for all the gameplay features: car control, collision detection
 and response, level loading, camera following behavior, bonus picking and many more. The involved
@@ -92,7 +92,7 @@ classes are shown in figure~\ref{fig:gamestate-classes}.
 	Z (vertical) axis and a texture sticked to it.
 \end{itemize}
 
-\subsection{Game Objects}
+\section{Game Objects}
 
 This subsystem is responsible for modelling every object in \game: car, time bonuses, checkpoints and objects
 in the scene like walls, buildings or the track itself. This subsystem's classes are shown in
@@ -127,7 +127,7 @@ figure~\ref{fig:gameobjects-classes}.
 	in the checkpoint sequence and the times the player has to go through them (laps).
 \end{itemize}
 
-\subsection{Collision detection}
+\section{Collision detection}
 
 The collision detection system provides a highly extensible mechanism
 programmers can use to detect object intersections and react to them

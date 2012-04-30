@@ -1,11 +1,11 @@
 % Implementation
 
 In this section we will profusely explain some of the main features
-from an implementation point of view. Each subsection will cover a specific
+from an implementation point of view. Each section will cover a specific
 topic including a description of the problem, a explanation of the solution,
 fragments of C\# code and diagrams when appropriate.
 
-\subsection{Settings system}
+\section{Settings system}
 
 In \game\ we have a lot of tunning parameters to configure different element's
 behavior such as car physics properties, camera movement attributes, GUI
@@ -39,7 +39,7 @@ we return \texttt{0.0f}.\\
 
 \lstinputlisting[style=CSharp]{code/getOpt.cs}
 
-\subsection{States management and game loop}
+\section{States management and game loop}
 
 In \game\ we need to manage several states to represent different screens and transitions
 between them as we mentioned during the design phase. Every state could potentially take
@@ -74,7 +74,7 @@ properly rendered.
 
 \lstinputlisting[style=CSharp]{code/gameloop.cs}
 
-\subsection{Car and camera movement}
+\section{Car and camera movement}
 \label{sec:imp-car}
 
 Implementing complex and realistic physics for our car movement was completely out of
@@ -109,7 +109,7 @@ but limiting its acceleration. The code is shown below.\\
 
 \lstinputlisting[style=CSharp]{code/updateCamera.cs}
 
-\subsection{Event detection and response}
+\section{Event detection and response}
 
 XNA's default input system is pretty easy to use but it lacks a proper event
 system. For instance, it does not provide event handlers.
@@ -134,7 +134,7 @@ this follows the Observer design pattern as mentioned in the design section \cit
 
 \lstinputlisting[style=CSharp]{code/inputCallbacks.cs}
 
-\subsection{Blender level creation and loading}
+\section{Blender level creation and loading}
 
 Keeping our level or track data inside our code would have been a really bad design decision.
 That means that every time we want to make a small change to our level, like changing
@@ -152,11 +152,11 @@ involves using a level designing tool and following a workflow similar to the on
 In \game\ we have used Blender \cite{hess07}, the open source 3D modelling and animation
 tool as our level designer. Every object in the game has been modelled using this tool
 and exported into the XNA compatible \texttt{.fbx} format. Later, the pieces are put together
-to form a complete level. In the two following subsections we will discuss the last two steps
+to form a complete level. In the two following sections we will discuss the last two steps
 in the workflow we detailed earlier because the first one (Blender usage) is out of this
 report's scope.
 
-\subsubsection{Level creation}
+\subsection{Level creation}
 
 Once we have modelled our game elements, we need to make a composition to
 create a whole level. When we are finished we will export the level into, what
@@ -195,7 +195,7 @@ XNA content pipeline. Otherwise, the game will crash at run time.
 
 \image{level-blender.png}{scale=0.25}{Level creation using Blender}{fig:level-blender}{H}
 
-\subsubsection{Level loading}
+\subsection{Level loading}
 
 Blender can export into the \textit{Dotscene} format using a plugin that can be found here.\\
 
@@ -213,7 +213,7 @@ code is shown below these paragraph.\\
 
 \lstinputlisting[style=CSharp]{code/levelLoad.cs}
 
-\subsection{Collision detection}
+\section{Collision detection}
 \label{sec:collision-detection}
 
 Collision detection is a critical subsystem in our game. We need to perform a big number
@@ -227,7 +227,7 @@ In this section we will cover how our game objects' shapes are described, how we
 have achieved run time collision test picking and how we perform collision detection in
 global space.
 
-\subsubsection{Shapes description}
+\subsection{Shapes description}
 
 We have talked that our game object may have collidable shapes that can be retrieved from
 a collection our \textit{CollisionManager} keeps. These shapes are defined in an XML
@@ -249,7 +249,7 @@ shape, otherwise it returns \texttt{null}.\\
 
 \lstinputlisting[style=CSharp]{code/getShape.cs}
 
-\subsubsection{Collision dispatching}
+\subsection{Collision dispatching}
 
 As we have already said, our collision detection system takes two shapes of the base class
 and automatically determines which collision test needs to be called. This is achieved by
@@ -266,9 +266,9 @@ dispatching.\\
 \lstinputlisting[style=CSharp]{code/collisionDispatching.cs}
 
 
-\subsubsection{Collision tests}
+\subsection{Collision tests}
 
-Throughout this subsection we will discuss the implementation of every collision test provided
+Throughout this section we will discuss the implementation of every collision test provided
 in the \game\ code. Note that not every collision test is used, however, the system has been
 designed to be as extensible as possible. Every collision test is accompanied by a diagram
 and the correspondent code.\\
@@ -318,7 +318,7 @@ book \cite{eric05}.\\
 
 \lstinputlisting[style=CSharp]{code/obb-obb.cs}
 
-\subsubsection{Broad, extensive passes and callbacks}
+\subsection{Broad, extensive passes and callbacks}
 
 We cannot simply iterate trough every pair of collidable objects in our game scene looking
 for possible collisions. This would be an extremely inefficient and pointlent process because
@@ -360,7 +360,7 @@ The collision checking algorithm is the following in pseudocode.
 	\end{enumerate}
 \end{enumerate}
 
-\subsubsection{Car against scene callback}
+\subsection{Car against scene callback}
 
 One of the most interesting collision callbacks in the game is the one that reacts to 
 collisions between the car and the scene. We basically get the collision normal vector,
@@ -375,7 +375,7 @@ The algorithm is shown below.\\
 
 \lstinputlisting[style=CSharp]{code/collisionCarScene.cs}
 
-\subsection{Sound effects}
+\section{Sound effects}
  
 \game\ has both: background music and sound effects. The first one has been obtained from
 Jamendo, the Creative Commons \cite{website:cc} music platform while effects have been
@@ -408,7 +408,7 @@ This tasks is carried out inside the \textit{Car}'s \textit{update()} method.
 
 \lstinputlisting[style=CSharp]{code/engineEffect.cs}
 
-\subsection{Terrain}
+\section{Terrain}
 \label{sec:terrain}
 
 Our terrain is basically a squared grid with variable Z values designed in Blended at the
@@ -426,7 +426,7 @@ rendering still works (slowly).\\
 In our level files, the terrain follows the pattern \texttt{Terrain.name} so we need to 
 export the terrain with the right name.\\
 
-\subsection{Skybox}
+\section{Skybox}
 
 Our skybox is a \texttt{1x1x1} cube which normal vectors are looking inwards. The cube can also
 be positioned, rotated and scaled to fit any scene. In fact, this positioning and scaling process
