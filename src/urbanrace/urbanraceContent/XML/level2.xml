@@ -1,0 +1,2565 @@
+<scene formatVersion="1.0.0">
+  <nodes>
+    <node name="geometry.grass.347">
+      <position x="-88.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.347" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.344">
+      <position x="-88.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.344" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.343">
+      <position x="-88.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.343" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.build6">
+      <position x="75.074356" y="-45.728180" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.grass.349">
+      <position x="-88.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.349" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.348">
+      <position x="-88.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.348" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.wall.099">
+      <position x="-34.251076" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.099" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.098">
+      <position x="-50.251076" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.098" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building5.008">
+      <position x="-60.527378" y="71.143890" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.008" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.building5.009">
+      <position x="-31.906700" y="72.166565" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.009" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.building5.006">
+      <position x="101.348869" y="233.784088" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.006" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.wall.090">
+      <position x="-38.686813" y="20.982580" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.090" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building5.004">
+      <position x="146.959839" y="207.848450" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.004" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.building5.005">
+      <position x="129.073181" y="233.784088" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.005" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.building5.002">
+      <position x="159.480499" y="11.095264" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.002" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.wall.094">
+      <position x="-50.251076" y="9.991750" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.094" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.097">
+      <position x="-66.251076" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.097" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building5.001">
+      <position x="-89.755005" y="-26.660553" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.001" meshFile="building5.mesh"/>
+    </node>
+    <node name="geometry.straight.009">
+      <position x="-40.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.009" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.008">
+      <position x="-24.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.008" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.007">
+      <position x="-8.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.007" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.006">
+      <position x="8.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.006" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.005">
+      <position x="24.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.005" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.004">
+      <position x="40.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.004" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="Camera">
+      <position x="-54.447773" y="35.303715" z="3.023139"/>
+      <quaternion x="0.694613" y="0.132334" z="0.124564" w="0.696049"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <camera name="Camera" fov="43.070039" projectionType="perspective">
+        <clipping nearPlaneDist="0.100000" farPlaneDist="2000.000000"/>
+      </camera>
+    </node>
+    <node name="geometry.grass4.012">
+      <position x="-128.000000" y="56.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.012" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.013">
+      <position x="160.000000" y="56.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.013" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.010">
+      <position x="-128.000000" y="184.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.010" meshFile="grass4.mesh"/>
+    </node>
+    <node name="scene.wall.147">
+      <position x="-42.082634" y="87.681450" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.816885" w="0.576800"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.147" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.146">
+      <position x="-57.070904" y="85.224388" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.146" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.145">
+      <position x="-71.813263" y="88.765442" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.519117" w="0.854703"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.145" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.144">
+      <position x="-80.702042" y="100.039009" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.117016" w="0.993130"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.144" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.143">
+      <position x="-82.580971" y="115.533142" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.143" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.142">
+      <position x="-82.580971" y="131.533142" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.142" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.141">
+      <position x="-82.580971" y="147.533142" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.141" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.140">
+      <position x="-78.954002" y="160.832047" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.957045" w="0.289939"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.140" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.149">
+      <position x="-22.642948" y="97.654221" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.965666" w="0.259786"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.149" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.148">
+      <position x="-30.447729" y="97.365158" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.967122" w="0.254311"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.148" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.156">
+      <position x="104.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.156" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.157">
+      <position x="88.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.157" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.154">
+      <position x="104.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.154" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.155">
+      <position x="104.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.155" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.152">
+      <position x="104.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.152" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.153">
+      <position x="104.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.153" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.150">
+      <position x="104.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.150" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.151">
+      <position x="104.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.151" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass4.015">
+      <position x="160.000000" y="184.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.015" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass.158">
+      <position x="56.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.158" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.159">
+      <position x="40.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.159" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.383">
+      <position x="-40.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.383" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.382">
+      <position x="-56.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.382" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.381">
+      <position x="-72.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.381" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.wall">
+      <position x="46.941246" y="146.543411" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.065194" w="0.997873"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.386">
+      <position x="-72.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.386" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.385">
+      <position x="-56.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.385" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.384">
+      <position x="-40.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.384" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.goal">
+      <position x="-50.531288" y="0.249390" z="5.329862"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.143155" y="1.143155" z="1.143155"/>
+      <entity name="geometry.goal" meshFile="goal.mesh"/>
+    </node>
+    <node name="time.5.002">
+      <position x="-14.876342" y="-0.249661" z="2.188905"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.002524" y="2.002524" z="2.002524"/>
+      <entity name="time.5.002" meshFile="timebonus.mesh"/>
+    </node>
+    <node name="time.001">
+      <position x="-34.581718" y="126.560272" z="2.188904"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.002524" y="2.002524" z="2.002524"/>
+      <entity name="time.001" meshFile="timebonus.mesh"/>
+    </node>
+    <node name="time.002">
+      <position x="-86.917892" y="15.001595" z="2.188904"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.002524" y="2.002524" z="2.002524"/>
+      <entity name="time.002" meshFile="timebonus.mesh"/>
+    </node>
+    <node name="car">
+      <position x="-63.441914" y="-0.584718" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="car" meshFile="car.mesh"/>
+    </node>
+    <node name="geometry.grass.372">
+      <position x="-24.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.372" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.371">
+      <position x="-24.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.371" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass2.003">
+      <position x="176.000000" y="264.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2.003" meshFile="grass2.mesh"/>
+    </node>
+    <node name="geometry.grass2.002">
+      <position x="176.000000" y="232.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2.002" meshFile="grass2.mesh"/>
+    </node>
+    <node name="geometry.grass2.001">
+      <position x="176.000000" y="-56.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2.001" meshFile="grass2.mesh"/>
+    </node>
+    <node name="geometry.grass4.011">
+      <position x="-128.000000" y="120.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.011" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass2.007">
+      <position x="144.000000" y="8.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2.007" meshFile="grass2.mesh"/>
+    </node>
+    <node name="geometry.grass.508">
+      <position x="120.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.508" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass2.005">
+      <position x="-112.000000" y="8.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2.005" meshFile="grass2.mesh"/>
+    </node>
+    <node name="geometry.grass2.004">
+      <position x="-144.000000" y="8.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2.004" meshFile="grass2.mesh"/>
+    </node>
+    <node name="geometry.straight.049">
+      <position x="120.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.049" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.048">
+      <position x="120.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.048" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.047">
+      <position x="120.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.047" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.046">
+      <position x="120.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.046" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.045">
+      <position x="104.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.045" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.044">
+      <position x="120.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.044" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.043">
+      <position x="120.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.043" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.042">
+      <position x="104.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.042" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.041">
+      <position x="88.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.041" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.040">
+      <position x="56.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.040" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="scene.wall.109">
+      <position x="121.388374" y="1.457414" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.933088" w="0.359649"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.109" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.108">
+      <position x="107.430023" y="-7.005525" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.807993" w="0.589192"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.108" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.103">
+      <position x="29.748924" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.103" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.102">
+      <position x="13.748924" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.102" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.101">
+      <position x="-2.251076" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.101" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.100">
+      <position x="-18.251076" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.100" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.107">
+      <position x="92.748924" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.107" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.106">
+      <position x="77.748924" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.106" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.105">
+      <position x="61.748924" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.105" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.104">
+      <position x="45.748924" y="-9.423507" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.104" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.013">
+      <position x="-56.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.013" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass2.006">
+      <position x="176.000000" y="8.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2.006" meshFile="grass2.mesh"/>
+    </node>
+    <node name="checkpoint.008">
+      <position x="103.670456" y="147.097702" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.008" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.009">
+      <position x="119.808678" y="186.434616" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.009" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.006">
+      <position x="119.808678" y="80.527534" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.006" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.007">
+      <position x="120.144890" y="112.467766" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.007" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.004">
+      <position x="117.459198" y="21.578348" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.004" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.005">
+      <position x="119.808678" y="50.604584" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.005" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.002">
+      <position x="46.514252" y="0.172640" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.002" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.003">
+      <position x="83.833893" y="0.845066" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.003" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.001">
+      <position x="6.168701" y="0.845066" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.001" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="scene.wall.077">
+      <position x="-60.304848" y="125.335007" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.077" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.076">
+      <position x="-60.304848" y="141.335007" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.076" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.075">
+      <position x="-52.615639" y="149.191376" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.075" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.074">
+      <position x="-36.615639" y="149.191376" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.074" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.073">
+      <position x="-20.615637" y="149.191376" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.073" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.072">
+      <position x="-4.615637" y="149.191376" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.072" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.071">
+      <position x="11.384363" y="149.191376" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.071" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.070">
+      <position x="24.463451" y="143.256317" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.351229" w="0.936290"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.070" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.079">
+      <position x="-43.153111" y="133.474823" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.849714" w="0.527244"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.079" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.078">
+      <position x="-55.217468" y="124.026825" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.939885" w="0.341492"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.078" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building1">
+      <position x="-9.749615" y="-39.867355" z="55.721363"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="8.623075" y="8.623075" z="8.623075"/>
+      <entity name="scene.building1" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building3">
+      <position x="140.249664" y="26.102631" z="5.584871"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="0.770819" y="0.770819" z="0.770819"/>
+      <entity name="scene.building3" meshFile="building3.mesh"/>
+    </node>
+    <node name="scene.building2">
+      <position x="136.793060" y="-10.245217" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.368934" w="0.929456"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building5">
+      <position x="74.518906" y="-23.783707" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.wall.091">
+      <position x="-54.686813" y="20.982580" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.091" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building5.007">
+      <position x="-114.185303" y="114.837845" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.007" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.wall.093">
+      <position x="-66.251076" y="9.991750" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.093" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.092">
+      <position x="-68.640388" y="15.439379" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.919818" w="0.392345"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.092" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.095">
+      <position x="-34.251076" y="9.991750" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.095" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building5.003">
+      <position x="160.374832" y="37.030910" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.003" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.wall.096">
+      <position x="-17.170692" y="9.243792" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.671387" w="0.741107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.096" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.build6.06">
+      <position x="110.138954" y="-19.867657" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.06" meshFile="building6.mesh"/>
+    </node>
+    <node name="scene.building1.010">
+      <position x="87.822327" y="95.403046" z="32.341942"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="5.047432" y="5.047432" z="5.047432"/>
+      <entity name="scene.building1.010" meshFile="building1.mesh"/>
+    </node>
+    <node name="geometry.grass4">
+      <position x="-128.000000" y="-40.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass2">
+      <position x="176.000000" y="-24.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass2" meshFile="grass2.mesh"/>
+    </node>
+    <node name="geometry.straight.014">
+      <position x="-40.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.014" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.015">
+      <position x="-8.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.015" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.016">
+      <position x="-8.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.016" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.017">
+      <position x="-8.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.017" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.010">
+      <position x="-72.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.010" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.011">
+      <position x="-56.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.011" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.012">
+      <position x="72.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.012" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.013">
+      <position x="-56.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.013" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.018">
+      <position x="-40.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.018" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.019">
+      <position x="-56.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.019" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="scene.wall.039">
+      <position x="110.386887" y="36.326542" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.997025" w="0.077076"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.039" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.038">
+      <position x="105.988052" y="21.307678" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.977529" w="0.210799"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.038" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.033">
+      <position x="32.000000" y="8.410402" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.033" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.032">
+      <position x="16.000000" y="8.410402" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.032" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.037">
+      <position x="95.368027" y="11.190369" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.823199" w="0.567753"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.037" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.036">
+      <position x="80.000000" y="8.410402" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.036" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.035">
+      <position x="64.000000" y="8.410402" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.035" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.034">
+      <position x="48.000000" y="8.410402" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.034" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.132">
+      <position x="40.142456" y="159.478821" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.417033" w="0.908891"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.132" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.133">
+      <position x="26.917690" y="167.283615" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.567390" w="0.823449"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.133" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.130">
+      <position x="46.140575" y="178.152679" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.130" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.131">
+      <position x="46.140575" y="162.152679" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.131" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.136">
+      <position x="-20.402807" y="170.174240" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.136" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.137">
+      <position x="-36.402809" y="170.174240" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.137" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.134">
+      <position x="11.597193" y="170.174240" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.134" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.135">
+      <position x="-4.402807" y="170.174240" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.135" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.138">
+      <position x="-52.402809" y="170.174240" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.138" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.139">
+      <position x="-67.963173" y="168.635529" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.774143" w="0.633011"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.139" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.145">
+      <position x="88.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.145" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.144">
+      <position x="88.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.144" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.147">
+      <position x="72.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.147" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.146">
+      <position x="72.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.146" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.141">
+      <position x="88.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.141" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.140">
+      <position x="88.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.140" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.143">
+      <position x="72.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.143" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.142">
+      <position x="72.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.142" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.149">
+      <position x="104.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.149" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.148">
+      <position x="88.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.148" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.wall.048">
+      <position x="104.362625" y="171.133057" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.388282" w="0.921540"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.048" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.049">
+      <position x="110.001396" y="184.513184" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.049" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.046">
+      <position x="93.754082" y="142.230774" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.046" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.047">
+      <position x="96.143394" y="157.944061" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.165292" w="0.986245"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.047" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.044">
+      <position x="106.465218" y="114.323616" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.345718" w="0.938339"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.044" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.045">
+      <position x="97.576981" y="127.225899" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.247048" w="0.969003"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.045" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.042">
+      <position x="111.455170" y="84.162338" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.042" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.043">
+      <position x="111.455170" y="100.162338" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.043" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.040">
+      <position x="111.455170" y="52.162334" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.040" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.041">
+      <position x="111.455170" y="68.162338" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.041" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.build6.005">
+      <position x="-92.434814" y="101.071350" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.005" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.build6.004">
+      <position x="-92.051819" y="122.665710" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.004" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.build6.007">
+      <position x="38.551674" y="21.039349" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.007" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.build6.006">
+      <position x="-45.805424" y="52.837635" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.006" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.build6.001">
+      <position x="97.546692" y="-40.997162" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.001" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.build6.003">
+      <position x="33.731575" y="217.896484" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.353276" w="0.935519"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.003" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.build6.002">
+      <position x="53.406891" y="223.262482" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.458142" w="0.888879"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.002" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.build6.008">
+      <position x="55.425819" y="20.528013" z="10.346102"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.649565" y="0.649565" z="0.649565"/>
+      <entity name="geometry.build6.008" meshFile="building6.mesh"/>
+    </node>
+    <node name="geometry.grass.368">
+      <position x="-24.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.368" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.365">
+      <position x="-24.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.365" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.364">
+      <position x="-40.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.364" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.367">
+      <position x="-24.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.367" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.366">
+      <position x="-24.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.366" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.361">
+      <position x="-56.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.361" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.360">
+      <position x="-56.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.360" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.363">
+      <position x="-40.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.363" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.362">
+      <position x="-40.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.362" meshFile="grass.mesh"/>
+    </node>
+    <node name="time.5">
+      <position x="120.360901" y="42.546940" z="2.188904"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.002524" y="2.002524" z="2.002524"/>
+      <entity name="time.5" meshFile="timebonus.mesh"/>
+    </node>
+    <node name="geometry.straight.050">
+      <position x="88.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.050" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.051">
+      <position x="120.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.051" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.052">
+      <position x="120.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.052" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.turn">
+      <position x="-88.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707106" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.grass.405">
+      <position x="-8.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.405" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.406">
+      <position x="8.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.406" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.407">
+      <position x="24.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.407" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.408">
+      <position x="24.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.408" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.409">
+      <position x="8.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.409" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.straight.029">
+      <position x="40.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.029" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.028">
+      <position x="40.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.028" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.025">
+      <position x="-24.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.025" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.024">
+      <position x="-40.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.024" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.027">
+      <position x="8.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.027" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.026">
+      <position x="-8.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.026" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.021">
+      <position x="-72.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.021" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.020">
+      <position x="-72.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.020" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.023">
+      <position x="-56.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.023" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.022">
+      <position x="-72.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.022" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="checkpoint.019">
+      <position x="-51.526871" y="159.576324" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.019" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.018">
+      <position x="11.915057" y="160.746033" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.018" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.015">
+      <position x="39.689175" y="65.437088" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.015" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.014">
+      <position x="58.692516" y="65.729446" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.014" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.017">
+      <position x="39.689175" y="133.264404" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.017" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.016">
+      <position x="39.104458" y="91.164688" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.016" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.011">
+      <position x="56.788589" y="177.841156" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.011" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.010">
+      <position x="88.548470" y="208.263779" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.010" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.013">
+      <position x="57.230721" y="91.749405" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.013" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.012">
+      <position x="57.230721" y="133.849121" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.012" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="geometry.grass.002">
+      <position x="24.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.002" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.wall.002">
+      <position x="47.979477" y="114.805969" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.002" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.003">
+      <position x="47.979477" y="98.805969" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.003" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.001">
+      <position x="47.979477" y="130.805969" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.001" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.004">
+      <position x="47.979477" y="82.805969" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.004" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.005">
+      <position x="47.979477" y="66.805969" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.005" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.160">
+      <position x="-79.488861" y="-9.857435" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.692949" w="0.720986"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.160" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.008">
+      <position x="-8.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.008" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.009">
+      <position x="-24.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.009" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.138">
+      <position x="72.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.138" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.139">
+      <position x="72.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.139" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.134">
+      <position x="72.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.134" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.135">
+      <position x="72.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.135" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.136">
+      <position x="88.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.136" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.137">
+      <position x="88.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.137" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.130">
+      <position x="72.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.130" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.131">
+      <position x="72.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.131" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.132">
+      <position x="88.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.132" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.133">
+      <position x="88.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.133" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.bigturn">
+      <position x="-80.000000" y="24.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.bigturn" meshFile="bigturn.mesh"/>
+    </node>
+    <node name="scene.wall.082">
+      <position x="-3.486460" y="120.822777" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.231540" w="0.972825"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.082" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.083">
+      <position x="0.668863" y="106.445358" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.052044" w="0.998645"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.083" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.080">
+      <position x="-28.327032" y="136.527252" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.680393" w="0.732847"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.080" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.081">
+      <position x="-13.791662" y="131.875931" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.494283" w="0.869301"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.081" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.straight">
+      <position x="56.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.grass.001">
+      <position x="24.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.001" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.building1.008">
+      <position x="-92.028229" y="67.452560" z="32.341942"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="5.047432" y="5.047432" z="5.047432"/>
+      <entity name="scene.building1.008" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building1.009">
+      <position x="-116.175186" y="-3.199722" z="25.111671"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="3.931125" y="3.931125" z="3.931125"/>
+      <entity name="scene.building1.009" meshFile="building1.mesh"/>
+    </node>
+    <node name="geometry.grass.004">
+      <position x="24.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.004" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.005">
+      <position x="8.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.005" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.006">
+      <position x="8.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.006" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.007">
+      <position x="8.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.007" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.building1.002">
+      <position x="153.913239" y="109.486191" z="32.341942"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="5.047432" y="5.047432" z="5.047432"/>
+      <entity name="scene.building1.002" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building1.003">
+      <position x="154.807571" y="147.048157" z="32.341942"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="5.047432" y="5.047432" z="5.047432"/>
+      <entity name="scene.building1.003" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building1.001">
+      <position x="41.227329" y="-29.135361" z="32.341942"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="5.047432" y="5.047432" z="5.047432"/>
+      <entity name="scene.building1.001" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building1.006">
+      <position x="-115.280869" y="233.798416" z="55.721363"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="8.623075" y="8.623075" z="8.623075"/>
+      <entity name="scene.building1.006" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building1.007">
+      <position x="-57.022930" y="-26.452370" z="25.111671"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="3.931125" y="3.931125" z="3.931125"/>
+      <entity name="scene.building1.007" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building1.004">
+      <position x="155.701904" y="180.138458" z="21.288691"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="3.350741" y="3.350741" z="3.350741"/>
+      <entity name="scene.building1.004" meshFile="building1.mesh"/>
+    </node>
+    <node name="scene.building1.005">
+      <position x="21.552017" y="190.870453" z="32.341942"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="5.047432" y="5.047432" z="5.047432"/>
+      <entity name="scene.building1.005" meshFile="building1.mesh"/>
+    </node>
+    <node name="geometry.grass.003">
+      <position x="24.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.003" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.building3.001">
+      <position x="141.432419" y="50.940475" z="5.584871"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="0.770819" y="0.770819" z="0.770819"/>
+      <entity name="scene.building3.001" meshFile="building3.mesh"/>
+    </node>
+    <node name="scene.building3.002">
+      <position x="141.432419" y="75.778320" z="5.584871"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="0.770819" y="0.770819" z="0.770819"/>
+      <entity name="scene.building3.002" meshFile="building3.mesh"/>
+    </node>
+    <node name="scene.building3.003">
+      <position x="75.857712" y="230.010468" z="5.584871"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="0.770819" y="0.770819" z="0.770819"/>
+      <entity name="scene.building3.003" meshFile="building3.mesh"/>
+    </node>
+    <node name="scene.building3.004">
+      <position x="-98.537140" y="33.257294" z="5.584871"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.833769" w="0.552114"/>
+      <scale x="0.770819" y="0.770819" z="0.770819"/>
+      <entity name="scene.building3.004" meshFile="building3.mesh"/>
+    </node>
+    <node name="scene.building3.005">
+      <position x="13.445816" y="60.358208" z="5.584871"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="0.770819" y="0.770819" z="0.770819"/>
+      <entity name="scene.building3.005" meshFile="building3.mesh"/>
+    </node>
+    <node name="scene.building3.006">
+      <position x="13.445816" y="82.857063" z="5.584871"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="0.770819" y="0.770819" z="0.770819"/>
+      <entity name="scene.building3.006" meshFile="building3.mesh"/>
+    </node>
+    <node name="geometry.grass.419">
+      <position x="40.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.419" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.wall.121">
+      <position x="129.859436" y="177.707520" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.121" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.120">
+      <position x="127.947975" y="162.249725" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.120528" w="0.992710"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.120" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.123">
+      <position x="127.031616" y="208.827744" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.179920" w="0.983681"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.123" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.122">
+      <position x="129.859436" y="193.707520" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.122" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.125">
+      <position x="100.696007" y="217.570770" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.125" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.124">
+      <position x="116.378792" y="216.915039" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.675133" w="0.737696"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.124" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.127">
+      <position x="69.391533" y="215.040024" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.813010" w="0.582249"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.127" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.126">
+      <position x="84.696007" y="217.570770" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.126" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.129">
+      <position x="48.717030" y="193.611435" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.986798" w="0.161956"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.129" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.128">
+      <position x="56.446404" y="206.682251" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.932708" w="0.360633"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.128" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.turn.013">
+      <position x="104.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707108" w="0.707106"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.013" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.012">
+      <position x="104.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000001" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.012" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.011">
+      <position x="120.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000001"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.011" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.010">
+      <position x="120.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.010" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.014">
+      <position x="120.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707105" w="0.707108"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.014" meshFile="turn.mesh"/>
+    </node>
+    <node name="scene.wall.059">
+      <position x="66.611519" y="85.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.059" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.058">
+      <position x="66.611519" y="101.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.058" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.055">
+      <position x="66.611519" y="149.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.055" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.054">
+      <position x="66.611519" y="165.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.054" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.057">
+      <position x="66.611519" y="117.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.057" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.056">
+      <position x="66.611519" y="133.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.056" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.051">
+      <position x="88.306458" y="197.511032" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.051" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.050">
+      <position x="102.642319" y="195.026154" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.566078" w="0.824352"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.050" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.053">
+      <position x="66.611519" y="181.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.053" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.052">
+      <position x="73.397163" y="193.401428" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.870282" w="0.492553"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.052" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass">
+      <position x="8.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.wall.010">
+      <position x="0.000000" y="8.410402" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.010" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.350">
+      <position x="-88.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.350" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.351">
+      <position x="-88.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.351" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.352">
+      <position x="-88.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.352" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.353">
+      <position x="-88.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.353" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.354">
+      <position x="-88.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.354" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.355">
+      <position x="-88.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.355" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.356">
+      <position x="-72.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.356" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.357">
+      <position x="-72.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.357" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.358">
+      <position x="-72.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.358" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.359">
+      <position x="-56.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.359" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.wall.088">
+      <position x="-10.286084" y="30.955357" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.374465" w="0.927241"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.088" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.089">
+      <position x="-23.294050" y="23.078308" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.598934" w="0.800798"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.089" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building5.011">
+      <position x="88.276215" y="30.383512" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.011" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.building5.010">
+      <position x="88.276215" y="58.507084" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.010" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.building5.013">
+      <position x="87.183220" y="181.537476" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.013" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.building5.012">
+      <position x="16.177597" y="115.265564" z="6.338643"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="0.726115" y="0.726115" z="0.726115"/>
+      <entity name="scene.building5.012" meshFile="building5.mesh"/>
+    </node>
+    <node name="scene.wall.086">
+      <position x="1.416821" y="58.821342" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.086" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.087">
+      <position x="-1.758639" y="43.746525" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.200812" w="0.979630"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.087" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.084">
+      <position x="1.416821" y="90.821342" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.084" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.085">
+      <position x="1.416821" y="74.821342" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.085" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.building2.005">
+      <position x="-66.220444" y="220.492584" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.005" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building2.004">
+      <position x="-28.658476" y="218.703918" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.004" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building2.007">
+      <position x="-99.310753" y="150.734650" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.007" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building2.006">
+      <position x="-76.058105" y="186.507950" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.006" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building2.001">
+      <position x="-17.032152" y="187.402267" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.001" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building2.003">
+      <position x="160.813721" y="63.856049" z="6.034235"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.building2.003" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building2.002">
+      <position x="-46.545128" y="186.507935" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.002" meshFile="building2.mesh"/>
+    </node>
+    <node name="geometry.grass.410">
+      <position x="-8.000000" y="192.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.410" meshFile="grass.mesh"/>
+    </node>
+    <node name="scene.building2.009">
+      <position x="15.228889" y="25.968269" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.009" meshFile="building2.mesh"/>
+    </node>
+    <node name="scene.building2.008">
+      <position x="-106.337074" y="186.379608" z="12.002991"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.042029" y="2.042029" z="2.042029"/>
+      <entity name="scene.building2.008" meshFile="building2.mesh"/>
+    </node>
+    <node name="geometry.straight.038">
+      <position x="56.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.038" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.039">
+      <position x="56.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.039" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.036">
+      <position x="56.000000" y="112.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.036" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.037">
+      <position x="56.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.037" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.034">
+      <position x="56.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.034" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.035">
+      <position x="56.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.035" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.032">
+      <position x="40.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.032" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.033">
+      <position x="56.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.033" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.030">
+      <position x="40.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.030" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="geometry.straight.031">
+      <position x="40.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.straight.031" meshFile="straightroad.mesh"/>
+    </node>
+    <node name="checkpoint.028">
+      <position x="-42.909103" y="0.508853" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.028" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.020">
+      <position x="-71.313667" y="128.878540" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.020" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.023">
+      <position x="-8.513374" y="85.508331" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.023" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.024">
+      <position x="-8.846094" y="60.203384" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.024" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.026">
+      <position x="-55.412399" y="32.173534" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.026" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="checkpoint.027">
+      <position x="-70.974854" y="0.821724" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.027" meshFile="checkpoint.mesh"/>
+    </node>
+    <node name="geometry.bigturn.008">
+      <position x="112.000000" y="8.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.bigturn.008" meshFile="bigturn.mesh"/>
+    </node>
+    <node name="geometry.grass4.014">
+      <position x="160.000000" y="120.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.014" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.bigturn.007">
+      <position x="64.000000" y="200.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.bigturn.007" meshFile="bigturn.mesh"/>
+    </node>
+    <node name="geometry.bigturn.006">
+      <position x="32.000000" y="152.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.bigturn.006" meshFile="bigturn.mesh"/>
+    </node>
+    <node name="geometry.bigturn.005">
+      <position x="-16.000000" y="120.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.bigturn.005" meshFile="bigturn.mesh"/>
+    </node>
+    <node name="geometry.bigturn.004">
+      <position x="-16.000000" y="40.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.bigturn.004" meshFile="bigturn.mesh"/>
+    </node>
+    <node name="scene.wall.158">
+      <position x="-96.743515" y="10.777128" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.999958" w="0.009160"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.158" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.159">
+      <position x="-91.947662" y="-3.518748" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.952727" w="0.303828"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.159" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.150">
+      <position x="-18.657160" y="82.932167" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.150" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.151">
+      <position x="-18.657160" y="66.932167" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.151" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.152">
+      <position x="-22.993149" y="52.440338" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.287169" w="0.957880"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.152" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.153">
+      <position x="-35.309875" y="44.648125" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.654838" w="0.755769"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.153" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.154">
+      <position x="-50.957142" y="43.642677" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.154" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.155">
+      <position x="-66.705780" y="41.694622" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.785589" w="0.618749"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.155" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.156">
+      <position x="-81.536125" y="35.913300" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.868599" w="0.495515"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.156" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.157">
+      <position x="-92.658882" y="25.356108" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.957833" w="0.287326"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.157" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.123">
+      <position x="8.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.123" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.122">
+      <position x="-8.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.122" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.121">
+      <position x="-24.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.121" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.120">
+      <position x="-40.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.120" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.127">
+      <position x="72.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.127" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.126">
+      <position x="56.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.126" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.125">
+      <position x="40.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.125" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.124">
+      <position x="24.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.124" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.129">
+      <position x="88.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.129" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.128">
+      <position x="88.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.128" meshFile="grass.mesh"/>
+    </node>
+    <node name="skybox">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="442.777344" y="442.777344" z="442.777344"/>
+      <entity name="skybox" meshFile="skybox.mesh"/>
+    </node>
+    <node name="terrain.terrain1">
+      <position x="7.841736" y="65.613251" z="-10.826818"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.117249" y="2.117249" z="2.117249"/>
+      <entity name="terrain.terrain1" meshFile="terrain1.mesh"/>
+    </node>
+    <node name="geometry.grass.398">
+      <position x="-8.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.398" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.012">
+      <position x="-56.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.012" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.011">
+      <position x="-56.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.011" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.010">
+      <position x="-40.000000" y="144.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.010" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.394">
+      <position x="-56.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.394" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.395">
+      <position x="-40.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.395" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.396">
+      <position x="24.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.396" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.397">
+      <position x="8.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.397" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.393">
+      <position x="-72.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.393" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.088">
+      <position x="-56.000000" y="16.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.088" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass4.009">
+      <position x="-128.000000" y="248.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.009" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.008">
+      <position x="-64.000000" y="248.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.008" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.005">
+      <position x="128.000000" y="248.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.005" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.004">
+      <position x="128.000000" y="-40.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.004" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.007">
+      <position x="0.000000" y="248.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.007" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.006">
+      <position x="64.000000" y="248.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.006" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.001">
+      <position x="-64.000000" y="-40.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.001" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.003">
+      <position x="64.000000" y="-40.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.003" meshFile="grass4.mesh"/>
+    </node>
+    <node name="geometry.grass4.002">
+      <position x="0.000000" y="-40.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass4.002" meshFile="grass4.mesh"/>
+    </node>
+    <node name="scene.wall.118">
+      <position x="119.739746" y="138.563126" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.387351" w="0.921932"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.118" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.119">
+      <position x="120.104370" y="149.409149" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.415255" w="0.909705"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.119" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.114">
+      <position x="130.840485" y="78.583115" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.114" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.115">
+      <position x="130.840485" y="94.583115" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.115" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.116">
+      <position x="130.840485" y="110.583115" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.116" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.117">
+      <position x="127.982864" y="125.703850" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.176665" w="0.984271"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.117" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.110">
+      <position x="128.642319" y="15.195951" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.990835" w="0.135081"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.110" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.111">
+      <position x="130.840485" y="30.583111" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.111" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.112">
+      <position x="130.840485" y="46.583111" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.112" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.113">
+      <position x="130.840485" y="62.583111" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.113" meshFile="wall.mesh"/>
+    </node>
+    <node name="geometry.grass.423">
+      <position x="40.000000" y="176.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.423" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.420">
+      <position x="40.000000" y="208.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.420" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.166">
+      <position x="8.000000" y="80.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.166" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.165">
+      <position x="8.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.165" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.164">
+      <position x="24.000000" y="64.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.164" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.163">
+      <position x="24.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.163" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.162">
+      <position x="8.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.162" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.161">
+      <position x="8.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.161" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.grass.160">
+      <position x="24.000000" y="32.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.grass.160" meshFile="grass.mesh"/>
+    </node>
+    <node name="geometry.turn.008">
+      <position x="40.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707106" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.008" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.009">
+      <position x="56.000000" y="48.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="-0.000001"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.009" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.004">
+      <position x="-40.000000" y="128.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.004" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.005">
+      <position x="-40.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="1.000000" w="0.000001"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.005" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.006">
+      <position x="-72.000000" y="96.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707108" w="0.707106"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.006" meshFile="turn.mesh"/>
+    </node>
+    <node name="geometry.turn.007">
+      <position x="-72.000000" y="160.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000003" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.turn.007" meshFile="turn.mesh"/>
+    </node>
+    <node name="scene.wall.068">
+      <position x="29.629143" y="113.517784" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.068" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.069">
+      <position x="29.629143" y="129.517792" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.069" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.060">
+      <position x="66.611519" y="69.550446" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.060" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.061">
+      <position x="64.866287" y="54.049084" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.109052" w="0.994036"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.061" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.062">
+      <position x="56.472534" y="41.915543" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.475592" w="0.879666"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.062" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.063">
+      <position x="42.344429" y="40.170311" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.820302" w="0.571931"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.063" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.064">
+      <position x="32.205444" y="50.475517" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.986629" w="0.162984"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.064" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.065">
+      <position x="29.629143" y="65.517784" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.065" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.066">
+      <position x="29.629143" y="81.517784" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.066" meshFile="wall.mesh"/>
+    </node>
+    <node name="scene.wall.067">
+      <position x="29.629143" y="97.517784" z="0.470000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="scene.wall.067" meshFile="wall.mesh"/>
+    </node>
+    <node name="time">
+      <position x="48.742973" y="46.678741" z="2.188904"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.002524" y="2.002524" z="2.002524"/>
+      <entity name="time" meshFile="timebonus.mesh"/>
+    </node>
+  </nodes>
+  <externals>
+    <item type="material">
+      <file name="Scene.material"/>
+    </item>
+  </externals>
+  <environment>
+    <colourAmbient r="0.000000" g="0.000000" b="0.000000"/>
+    <colourBackground r="0.056563" g="0.220815" b="0.400000"/>
+  </environment>
+</scene>

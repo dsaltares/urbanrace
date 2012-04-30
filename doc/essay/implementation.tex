@@ -1,0 +1,434 @@
+% Implementation
+
+In this section we will profusely explain some of the main features
+from an implementation point of view. Each subsection will cover a specific
+topic including a description of the problem, a explanation of the solution,
+fragments of C\# code and diagrams when appropriate.
+
+\subsection{Settings system}
+
+In \game\ we have a lot of tunning parameters to configure different element's
+behavior such as car physics properties, camera movement attributes, GUI
+elements' position and so on. Hardcoding these values can result in a drastic
+increase of development time, because every time we change one we have to
+rebuild the module and their dependents.\\
+
+One simple but effective solution could be having a settings file with
+name value pairs. That way, we can change a value in that file so the next time
+we run our application, the changes will be automatically applied. In our
+game we use the \texttt{settings.xml} file which is read by the \textit{Settings}
+singleton class as explained in the design section (page~\pageref{sec:design-system}).
+Our settings file has the following schema.\\
+
+\lstinputlisting[style=xml]{code/settings.xml}
+
+To read the XML file we use the \textit{loadSettings()} static method in our
+\textit{Settings} class. It basically uses the \textit{XDocument} library
+in the C\# language to process the XML file. The values are stored in a dictionary,
+a very appropiate data structure since it can use strings to index the elements
+and element search only takes logarithmic time. Note that looking for an element
+in a regular array or list involves linear time.\\
+
+\lstinputlisting[style=CSharp]{code/loadSettings.cs}
+
+To retrieve a value from our settings system we use the \textit{getOpt()} static
+method in the \textit{Settings} class. This method uses the \textit{TryGetValue()}
+method in the \textit{Dictionary} class to check element existence and perform
+element retrieval at the same time. If we cannot find the desired option
+we return \texttt{0.0f}.\\
+
+\lstinputlisting[style=CSharp]{code/getOpt.cs}
+
+\subsection{States management and game loop}
+
+In \game\ we need to manage several states to represent different screens and transitions
+between them as we mentioned during the design phase. Every state could potentially take
+lots of memory so we cannot afford to load every state in main memory at the same time.
+Some sort of state life-cycle management is in order. Our approach is shown in figure~\ref{fig:states-life}.
+
+\image{states-life.png}{scale=0.5}{Urban Race states life cycle}{fig:states-life}{H}
+
+Our \textit{UrbanRace} class has a \textit{Dictionary} containing states references
+indexed by state types. At game initialization, this main class creates all the states in
+the game but they remain unloaded. Then, we store in out \textit{currentState} attribute,
+the reference to the main menu state and we load the mentioned state. When the \textit{changeState()}
+method is called from somewhere in our code, we have to unload the current state, change the
+current state value and then load the new current state. This is shown in the bit of code below.\\
+
+\lstinputlisting[style=CSharp]{code/changeState.cs}
+
+The current implementation has an important drawback which is worth mentioning. If a state
+calls the \textit{changeState()} during its \textit{update()} process, it cannot make use
+of resources after that call, because they will be unloaded after the state change operation.
+A possible solution would have been to make the \textit{UrbanRace} class keep track of
+state changes petitions so they are safely applied at the end of a game loop iteration. However,
+the approach taken is enough for our game's scope.\\
+
+During the \textit{Update()} and \textit{Draw()} phases, the correspondent method's in the
+current state is called. During the update process, the input system is
+updated along the audio engine. Furthermore, in XNA we have to prepare the system to render 2D
+and 3D elements at the same time. In this case, our states render their 3D elements first, 
+and then their 2D objects (graphical user interface). This means that before every draw
+operation, we need to clean our deph buffer and rendering states so the 3D scene can be
+properly rendered.
+
+\lstinputlisting[style=CSharp]{code/gameloop.cs}
+
+\subsection{Car and camera movement}
+\label{sec:imp-car}
+
+Implementing complex and realistic physics for our car movement was completely out of
+this project's scope. That is why we adopted a quite simple approach. We can apply
+a thrust or brake force to our car resulting in an acceleration. We can also steer
+the wheels to change direction. To model this behavior we use linear cinematic properties
+such as velocity, maximum speed, maximum acceleration and brake force. To represent
+direction changes we have an angle (rotation around the vertical Z axis), angular
+speed, angular acceleration and maximum angular acceleration. This approach is illustrated
+in figure~\ref{fig:car-movement}.\\
+
+\image{car-movement.png}{scale=0.4}{Car and camera model}{fig:car-movement}{H}
+
+When we call the \textit{update()} method within the \textit{Car} class, we check
+user input and calculate linear and angular forces. Then, these forces are applied
+to obtain accelerations which are clamped so they cannot surpass the maximum. Then,
+the angular and linear velocity are updated using the elapsed time and the acceleration.
+Finally, the position and angle are also updated using velocities and the elapsed time
+between frames. Note that we are using really basic dynamic physics and euler
+integration. The \textit{update()} method is shown below.\\
+
+\lstinputlisting[style=CSharp]{code/carUpdate.cs}
+
+Our camera basically follows the car with a little delay when it steers so we can
+see its sides. The \textit{Camera} class has similar physics properties like \textit{Car}.
+However, it adds \texttt{distance} so we can position the camera behind de car, \texttt{height}
+and a \texttt{aheadDistance} to look ahead of the car. This last property allows the player
+to see what is in front of the car so he or she can avoid obstacles.\\
+
+Every frame we update the camera position trying to make it stay behind the car
+but limiting its acceleration. The code is shown below.\\
+
+\lstinputlisting[style=CSharp]{code/updateCamera.cs}
+
+\subsection{Event detection and response}
+
+XNA's default input system is pretty easy to use but it lacks a proper event
+system. For instance, it does not provide event handlers.
+To achieve this feature we need to keep track
+of the old and new states of the devices we want to support. To detect a button pressed
+we need to check that in the previous state the button was released and in the current
+state the same button is pressed. In our case, we want to develop a module to
+detect keyboard, mouse and gamepad events so we can create cross-platform games
+more easily.\\
+
+Once per game loop iteration it is necessary to call the static \textit{update()}
+method within the \textit{Input} class. This process involves getting the next state of
+each device and comparing the new one against the old one to detect events. If a
+callback for that event is registered, we need to fire it up so listeners can be notified.
+The following code shows the whole process.\\
+
+\lstinputlisting[style=CSharp]{code/inputUpdate.cs}
+
+Our callbacks are simple C\# delegates as shown below. Depending on the type of event,
+different types of data are passed as parameters to the event handler. Note that all
+this follows the Observer design pattern as mentioned in the design section \cite{gamm94}.\\
+
+\lstinputlisting[style=CSharp]{code/inputCallbacks.cs}
+
+\subsection{Blender level creation and loading}
+
+Keeping our level or track data inside our code would have been a really bad design decision.
+That means that every time we want to make a small change to our level, like changing
+a building position, we would need to rebuild the whole module (and its dependent modules).
+Not to mention that the person responsible for designing levels would need to know how to code.
+Furthermore, the level creation process would be really complicated and unorthodox. The solution
+involves using a level designing tool and following a workflow similar to the one below.
+
+\begin{enumerate}
+	\item Create level in design tool.
+	\item Export the level to a format the engine can process.
+	\item Load the level at run-time.
+\end{enumerate}
+
+In \game\ we have used Blender \cite{hess07}, the open source 3D modelling and animation
+tool as our level designer. Every object in the game has been modelled using this tool
+and exported into the XNA compatible \texttt{.fbx} format. Later, the pieces are put together
+to form a complete level. In the two following subsections we will discuss the last two steps
+in the workflow we detailed earlier because the first one (Blender usage) is out of this
+report's scope.
+
+\subsubsection{Level creation}
+
+Once we have modelled our game elements, we need to make a composition to
+create a whole level. When we are finished we will export the level into, what
+is called, \textit{Dotscene} format. It basically is a simple XML file detailing
+the name, position, orientation and scale of every object in our 3D scene. This
+file can be easily processed by our \textit{Level} class.\\
+
+The only thing we need is to adopt a naming convention so we can differentiate
+simple geometry from collidable objects such as time bonuses, checkpoints or walls.
+Our convention is fully detailed in the list following bullet list.
+
+\begin{itemize}
+	\item \textbf{Car}: there will always be a 3D car representing the initial position
+	and orientation of our vehicle and it will be called \texttt{car}.
+	\item \textbf{Time bonuses}: the objects that give the player extra seconds to finish
+	the track will follow the pattern \texttt{time.seconds.number}. The number part is used
+	to avoid name duplicities.
+	\item \textbf{Checkpoints}: these objects will meet the pattern \texttt{checkpoint.number}
+	where \texttt{number} means the order in which the checkpoint will need to be reached.
+	\item \textbf{Collidable objects}: we can lay collidable objects in the scene with
+	the pattern \texttt{scene.name.number}. \texttt{name} indicates the model that will
+	be loaded. This object will be added to the \textit{CollisionManager}, so
+	collisions tests against it will be performed. Then, it is recommended
+	to add an entry to our \texttt{shapes.xml} file describing its collidable model.
+	This file's schema will be fully detailed in the collision detection section (\ref{sec:collision-detection}).
+	\item \textbf{Geometry}: we can add arbitrary geometry which will be passable by our car.
+	This elements will need to follow the pattern \texttt{geometry.name.number}.
+	\item \textbf{Skybox}: landscapes can be designed using the \texttt{skybox} keyword.
+	\item \textbf{Terrain}: the terrain can be modelled and laid using the naming convention
+	\texttt{Terrain.name}. How the terrain has to be exported will be detailed in 
+	section~\ref{sec:terrain}.
+\end{itemize}
+
+Note that every model referenced in a level file will need to be registered in the
+XNA content pipeline. Otherwise, the game will crash at run time.
+
+\image{level-blender.png}{scale=0.25}{Level creation using Blender}{fig:level-blender}{H}
+
+\subsubsection{Level loading}
+
+Blender can export into the \textit{Dotscene} format using a plugin that can be found here.\\
+
+\url{http://www.ogre3d.org/tikiwiki/Blender+dotScene+Exporter}\\
+
+The XML files produced follows the schema shown below.\\
+
+\lstinputlisting[style=xml]{code/level1.xml}
+
+Our \textit{Level} \textit{load()} method uses the \textit{XDocument} library to
+open and parse XML track files. It iterates through every node element
+reading its position, orientation and scale, detects the element type
+and calls the correspondent \textit{GameState} method to add the element. The
+code is shown below these paragraph.\\
+
+\lstinputlisting[style=CSharp]{code/levelLoad.cs}
+
+\subsection{Collision detection}
+\label{sec:collision-detection}
+
+Collision detection is a critical subsystem in our game. We need to perform a big number
+of tests per game cycle and we need a fairly precise collision detection to provide
+a decent gameplay feeling. These tests may be resource intensive, so we need to be extra
+careful in this matter. Many of the algorithms and approaches have been taken from the
+Real-Time Collision Detection book \cite{eric05} although the techniques are used
+in a wide collection of open source physics libraries.\\
+
+In this section we will cover how our game objects' shapes are described, how we
+have achieved run time collision test picking and how we perform collision detection in
+global space.
+
+\subsubsection{Shapes description}
+
+We have talked that our game object may have collidable shapes that can be retrieved from
+a collection our \textit{CollisionManager} keeps. These shapes are defined in an XML
+file making the system quite customizable and extensible.\\
+
+\lstinputlisting[style=xml]{code/shapes.xml}
+
+The shape catalogue is initialized when the \textit{initShapeCatalog()} static method is
+called. It basically iterates through every shape node in the xml file, it identifies
+which type of shapes we are working with, and then it retrieves its properties. Note
+that shapes are identified by the object name. Shapes are stored in a dictionary
+indexed by their names.\\
+
+\lstinputlisting[style=CSharp]{code/initShapeCatalog.cs}
+
+When we want to retrieve a shape, the \textit{getShape()} method is called. It simply
+looks for the shape name in the dictionary. If it finds it, it returns a copy of the
+shape, otherwise it returns \texttt{null}.\\
+
+\lstinputlisting[style=CSharp]{code/getShape.cs}
+
+\subsubsection{Collision dispatching}
+
+As we have already said, our collision detection system takes two shapes of the base class
+and automatically determines which collision test needs to be called. This is achieved by
+keeping a dictionary of collision tests method references (delegates in C\#) indexed by
+a pair of simple integers. Then, every \textit{Shape} descendant has to implement a
+\textit{getType()} method that returns a unique integer so we can identify the right
+type of a base reference pointing to a descendant class object. When we want to check if
+two shapes are colliding, we call the \textit{getCollision()} static method in the
+\textit{Shape} class. It takes two general shape objects and it looks up their types
+in the dictionary, if it finds a test for that shape combination, it calls it, otherwise
+it returns false. This results in a safe and effective method to achieve run time collision
+dispatching.\\
+
+\lstinputlisting[style=CSharp]{code/collisionDispatching.cs}
+
+
+\subsubsection{Collision tests}
+
+Throughout this subsection we will discuss the implementation of every collision test provided
+in the \game\ code. Note that not every collision test is used, however, the system has been
+designed to be as extensible as possible. Every collision test is accompanied by a diagram
+and the correspondent code.\\
+
+The \textit{Sphere-Sphere} collision test is the simplest one. We only have to check if
+the distance between both centers is smaller than the sum of both radius. Knowing that we are
+comparing two lengths, we can use the squared length to improve performance. The tests is
+illustrated in figure~\ref{fig:sphere-sphere}.\\
+
+\image{sphere-sphere-test.png}{scale=0.5}{Sphere - Sphere csollision test}{fig:sphere-sphere}{H}
+
+The implementation of this test is shown in the following fragment of code.\\
+
+\lstinputlisting[style=CSharp]{code/sphere-sphere.cs}
+
+To check if a \textit{Sphere} is colliding with an \textit{Axis Aligned Bounding Box} we first check
+if the center of the sphere is inside the box. If not, we try to get the closest point in the box's
+borders to the center of the sphere. If the sphere radius is greater than the distance, the two shapes
+are colliding (this is shown in figure~\ref{fig:sphere-aabb}. Note that we represent bounding boxes
+using their minimum and maximum corner positions.\\
+
+\image{sphere-aabb-test.png}{scale=0.5}{Sphere - Axis Aligned Bounding Box collision test}{fig:sphere-aabb}{H}
+
+A simple implementation is shown below.\\
+
+\lstinputlisting[style=CSharp]{code/sphere-aabb.cs}
+
+For the \textit{Axis Aligned Bounding Boxes} test we use the axis separation theorem.
+This theorem says that two AABBs collide if and only if every axis (X, Y and Z)
+projection overlap. The diagram in figure~\ref{fig:aabb-aabb} shows a 2D collision test
+but we would only have to add one more axis if we wanted to represent it in 3D.\\
+
+\image{aabb-aabb-test.png}{scale=0.5}{AABB - AABB collision test}{fig:aabb-aabb}{H}
+
+This simple collision test is implemented below.\\
+
+\lstinputlisting[style=CSharp]{code/aabb-aabb.cs}
+
+The last and most complicated test is between two \textit{Oriented Bounding Boxes}. We are adding
+a rotation to our previous AABB. The algorithm basically transform one of the OBBs into the
+local coordinates of the other one. Then, we follow the separating axis theorem.\\
+
+\image{obb-obb-test.png}{scale=0.5}{Oriented Bounding Boxes collision test}{fig:obb-obb}{H}
+
+This quite complex algorithm has been extracted from the Real-Time Collision Detection
+book \cite{eric05}.\\
+
+\lstinputlisting[style=CSharp]{code/obb-obb.cs}
+
+\subsubsection{Broad, extensive passes and callbacks}
+
+We cannot simply iterate trough every pair of collidable objects in our game scene looking
+for possible collisions. This would be an extremely inefficient and pointlent process because
+some objects may be too far away to be colliding. We have adopted a simple approach to solve
+this problem: broad and extensive passes. The algorithm is run every game loop iteration
+inside the \textit{CollisionManager} \textit{checkCollisions()} method.\\
+
+In \game\, we want to react to certain collisions between game objects in a specific way.
+Our \textit{CollisionManager} has a collection of callback methods (delegates) indexed
+by types pairs. Each type of object has an identifier so we can tell the manager to call
+a specific method when two concrete object of a pair of given types collide.
+For example, we can tell the manager
+to call the \textit{collisionCarScene()} method when the car collides against our scene geometry.
+Furthermore, we can call different methods depending on the type of collision: just started,
+on going collision or collision finished.\\
+
+The collision checking algorithm is the following in pseudocode.
+
+\begin{enumerate}
+	\item For every object pair
+	\begin{enumerate}
+		\item If they are inside the collision radius (10 distance units for instance)
+			\begin{enumerate}
+				\item If they were not colliding and now they are colliding
+				\begin{itemize}
+					\item Put them into the colliding objects collection
+					\item Call begin callback if it exists.
+				\end{itemize}
+				\item If they were colliding and now they are still colliding
+				\begin{itemize}
+					\item Call during callback if it exists.
+				\end{itemize}
+				\item If they were colliding and now they are not colliding
+				\begin{itemize}
+					\item Remove object pair from colliding object collection.
+					\item Call end callback if it exists.
+				\end{itemize}
+			\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\subsubsection{Car against scene callback}
+
+One of the most interesting collision callbacks in the game is the one that reacts to 
+collisions between the car and the scene. We basically get the collision normal vector,
+rotate it so it reflects the angle between the car and the scene element. Then, we change the
+car direction so it goes along the reflected vector direction. The new speed depends on the
+car previous speed. We also play a crashing sound but this will be fully explained in following
+sections. The process is illustrated in figure~\ref{fig:car-collision}.
+
+\image{car-collision.png}{scale=0.4}{Car collision response diagram}{fig:car-collision}{H}
+
+The algorithm is shown below.\\
+
+\lstinputlisting[style=CSharp]{code/collisionCarScene.cs}
+
+\subsection{Sound effects}
+ 
+\game\ has both: background music and sound effects. The first one has been obtained from
+Jamendo, the Creative Commons \cite{website:cc} music platform while effects have been
+downloaded from several free resource banks. Playing music files is pretty straight forward
+but we also needed dynamic sound to simulate engine speed variations and crashes intensity.
+To achieve those effects the Microsoft Cross platform Audio Creation Tool (XACT 3) has
+been used.\\
+
+First, we had to create a sound project for our game and add every sound asset to it as
+shown in figure~\ref{fig:xact}. This would be enough if we only wanted static sound but we
+still needed to design an interface to work with our engine and crashing effects from the
+code.\\
+
+\image{xact.png}{scale=0.3}{Microsoft Crosss platform Audio Creation Tool}{fig:xact}{H}
+
+When the car crashes, we want to set the crashing effect volume depending on the speed
+the car bumped into the obstacle. That is why we created the \texttt{crashVolume} variable.
+Inside our car-obstacle collision callback we only need to asign the volume a value ranging
+from \texttt{0.0} to \texttt{1.0} as shown in the code below this paragraph.
+
+\lstinputlisting[style=CSharp]{code/crashVolume.cs}
+
+The engine makes two different sound effects, when the car is idle we want a vibrating engine
+sound but when it is moving, we want it to make a racing car sound. Furthermore, we want
+the intensity of the moving sound change depending on the car speed, we want its pitch to change.
+That is why we created a Cue made of two different sounds. Using the \texttt{idleVolume} and
+\texttt{engineVolume} variables we can turn the right one on and the other one off in a given
+situation. Through the \texttt{idleVolume} variable we can tune the engine sound pitch effect.
+This tasks is carried out inside the \textit{Car}'s \textit{update()} method.
+
+\lstinputlisting[style=CSharp]{code/engineEffect.cs}
+
+\subsection{Terrain}
+\label{sec:terrain}
+
+Our terrain is basically a squared grid with variable Z values designed in Blended at the
+same time as the rest of the level. This mesh is exported to an XML format which is parsed
+by our \textit{Terrain} class. We store the list of vertices and the list of indices that
+form every triangle in the terrain. When we want to render the terrain we use the
+\textit{DrawIndexedPrimitives()} passing the vertices and indices buffers as a triangle list.\\
+
+The call to the terrain \textit{draw()} method is currently commented in the \textit{GameState}
+class for performance reasons. The frame rate drops to 4 when the terrain has to be rendered.
+Level of detail and occlusion algorithms need to be used to improve performance. The quadtree
+approach was taken into account but could not be finished in time. However, terrain loading and
+rendering still works (slowly).\\
+
+In our level files, the terrain follows the pattern \texttt{Terrain.name} so we need to 
+export the terrain with the right name.\\
+
+\subsection{Skybox}
+
+Our skybox is a \texttt{1x1x1} cube which normal vectors are looking inwards. The cube can also
+be positioned, rotated and scaled to fit any scene. In fact, this positioning and scaling process
+is performed during level design using Blender. We use a primitive similar to the one in the
+terrain to draw the skybox. We have also used the graphics provided with the class examples.\\

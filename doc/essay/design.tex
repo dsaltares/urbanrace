@@ -1,0 +1,169 @@
+% Design
+
+Across this section we will discuss \game's classes design using UML diagrams \cite{larm02}
+accompanied by brief explanations. For layout reasons we have divided the whole
+system in several subsystems using their purpose as criteria to separate them.
+For every design decision, a justification will be provided.\\
+
+\subsection{System and states}
+\label{sec:design-system}
+
+Firstly, we have an application and states management layer which is responsible for
+game's initialization, memory management between states and global logic such as
+menu's navigation or game loop control. The classes involved in this subsystem are
+shown in figure~\ref{fig:system-classes}.
+
+\image{system-classes.png}{scale=0.5}{System classes design}{fig:system-classes}{H}
+
+\begin{itemize}
+	\item \textbf{UrbanRace}: main class which inherits from the XNA framework \textit{Game}
+	class, it is the entrance point for our game. It basically initializes
+	every other subsystem (such as collision detection, input handling or audio) and controls
+	the game loop overriding its parent class methods. During the \textit{update()}
+	phase it calls the active state \textit{update()} method and it does the correspondent
+	process during the \textit{draw()} phase. It also handles state's changes trough its
+	\textit{changeState()} public method.
+	\item \textbf{Log}: static class following the Singleton design pattern \cite{gamm94}
+	meaning that we will only have one single instance accessible from every other module
+	in the system. This class is used to output information relevant to our game's execution
+	so we can easily identify problems and bugs. It has three levels of logging: information,
+	warning and error. The debug information is saved into a \texttt{log.html} file for
+	easy and comfortable reading.
+	\item \textbf{Input}: class also following the Singleton design pattern \cite{gamm94} which
+	is responsible for capturing input events from the keyboard, mouse and gamepad. It is a
+	highly reusable component because it is not game specific. It also provides a callback
+	system following the Observer design pattern~\cite{gamm94}. This allows users to implement
+	and register event handlers which will be called upon a specific type of event.
+	\item \textbf{Camera}: the camera class is a tool that help us render our game's 3D scenes.
+	It has been designed so it follows the car with a small delay so we can see the vehicle's
+	sides. It has several tuning parameters such as \textit{distance}, \textit{height} or
+	\textit{maxAngularAcceleration} to configure its behavior. More details will be provided
+	in the implementation section (page~\pageref{sec:implementation}).
+	\item \textbf{State}: this abstract class models a game screen (main menu, victory, defeat
+	or game). It provides a mechanism to manage their memory usage through the \textit{load()}
+	and \textit{unload()} methods. It also allows the system to update and render it through
+	\textit{update()} and \textit{draw()}.
+	\item \textbf{Settings}: this class also follows the Singleton design pattern \cite{gamm94}
+	and provides a mechanism to configure all sorts of parameters in our game. It reads a
+	\texttt{settings.xml} file containing name value pairs so we can change configuration
+	settings without having to rebuild our code. This considerably speeds up our development
+	process.
+\end{itemize}
+
+\subsection{Game state}
+
+The Game state system is responsible for all the gameplay features: car control, collision detection
+and response, level loading, camera following behavior, bonus picking and many more. The involved
+classes are shown in figure~\ref{fig:gamestate-classes}.
+
+\image{gamestate-classes.png}{scale=0.45}{Game state classes design}{fig:gamestate-classes}{H}
+
+\begin{itemize}
+	\item \textbf{GameState}: this class inherits from \textit{State} and implements the interface
+	methods. It holds information regarding the current track such as its name, current lap, total
+	laps, remaining time, total available time and the player's time. It also holds the \textit{Car}
+	itself and other \textit{GameObjects} like the \textit{TimeBonuses}, the \textit{CheckPoints}
+	or all the level geometry.\\
+	
+	The game state is also responsible for managing and rendering the \textit{Terrain} and the
+	\textit{Skybox}, really important classes for environmental recreation purposes. The game state
+	provides methods following the Observer pattern \cite{gamm94} to react to user interaction and
+	collisions between game objects.\\
+	
+	This class delegates level loading and management to the \textit{Level} and \textit{TrackManager}
+	classes respectively.
+	
+	\item \textbf{Level}: this class is responsible for loading and parsing levels stored in XML files and telling
+	the \textit{GameState} which element to load and where (car, geometry, bonuses and checkpoints) through
+	its \textit{load()} method. Levels are created using the Blender open source 3D modelling and animation
+	tool~\cite{hess07} which process will be fully detailed in following sections.
+	\item \textbf{TrackManager}: this manager also follows the Singleton design pattern \cite{gamm94}
+	providing safe and global access to the list of available tracks in the game. The menu needs to know about
+	the tracks so the player can select them, the game state needs to ask for a specific track to be loaded
+	and the victory screen may need to register a new record. The track list and metadata is stored
+	in an XML file called \texttt{tracks.xml}.
+	
+	\item \textbf{Skybox}: the \textit{Skybox} class is responsible for creating, managing and rendering the
+	environment sky. This is noting more than a box with its normals looking inwards and six textures to imitate
+	a regular landscape.
+	
+	\item \textbf{Terrain}: class responsible for terrain loading and rendering. Along the level, we can have
+	height terrain created using Blender as well. It is basically a plane grid with different values in its
+	Z (vertical) axis and a texture sticked to it.
+\end{itemize}
+
+\subsection{Game Objects}
+
+This subsystem is responsible for modelling every object in \game: car, time bonuses, checkpoints and objects
+in the scene like walls, buildings or the track itself. This subsystem's classes are shown in
+figure~\ref{fig:gameobjects-classes}.
+
+\image{gameobjects-classes.png}{scale=0.5}{Game objects classes design}{fig:gameobjects-classes}{H}
+
+\begin{itemize}
+	\item \textbf{GameObject}: this is our base class to represent object within our game. It encapsulates the
+	object's graphical representation (\textit{Model}) with the collidable one (\textit{Shape}). It adds its location
+	in our game world through the position (vector), orientation (quaternion) and scale (scalar) attributes.
+	The \textit{GameObject} class provides an empty \textit{update()} method so every descendant can override it
+	to customize its behavior. This class includes a \textit{draw()} method that simply renders the object model
+	in the 3D scene applying the correspondent transforms (camera view and projection, translation, rotation and scale).
+	Every game object has a current state which in our game can either be: normal or erase.\\
+	
+	The \textit{GameObject} class provides a static \textit{getCollision()} method that tests intersections
+	between two objects' shapes. If they do not have shapes, it automatically returns false (one of them is 
+	not a collidable object).
+	
+	\item \textbf{Car}: the \textit{Car} class is a \textit{GameObject} specialization and it adds custom behavior
+	through the \textit{update()} method and several physics parameters to model its interaction with the world. We have
+	adopted a extremely simplistic approach to this topic for scheduling and complexity reasons. Modelling and
+	implementing realistic car physics without a physics simulation third party library can be highly tricky.
+	Our car's physics model will be fully detailed in the implementation section (page~\pageref{sec:imp-car}).
+	\item \textbf{TimeBonus}: the player has to collect time bonuses to increase his or her remaining time. These
+	bonuses are modelled using this specialization of \textit{GameObject}. Time bonuses move up and down and spin
+	around the Z axis so we have to add attributes to control this movement.
+	\item \textbf{CheckPoint}: we have to make sure that the player drives across the whole track without cheating.
+	The solution is setting up several invisible checkpoints that the player has to reach. The player has to go through
+	every one of them in the proper order to successfully complete a lap. They only add two attributes: its order
+	in the checkpoint sequence and the times the player has to go through them (laps).
+\end{itemize}
+
+\subsection{Collision detection}
+
+The collision detection system provides a highly extensible mechanism
+programmers can use to detect object intersections and react to them
+using listeners through the Observer design pattern \cite{gamm94}. All
+the classes involved are shown in figure~\ref{fig:collision-classes}.
+
+\image{collision-classes.png}{scale=0.5}{Collision detection and response classes design}{fig:collision-classes}{H}
+
+\begin{itemize}
+	\item \textbf{Shape}: abstract class that models our objects' collidable shapes and provides a tests system to
+	check collisions between two specific shapes. It has a transform to place the shape in world coordinates and
+	a type to know the exact class of a given shape. This helps us to pick the right test between two shapes. We
+	provide basic collision tests but the collection can be expanded through the \textit{addCollisionTest()} method. This
+	class includes a static \textit{getCollision()} method to check collisions between two generic shapes,
+	it automatically determines these shapes' type and picks the right test in a transparent way.
+	
+	\item \textbf{CollisionManager}: this manager keeps track of every active collidable object in our game. We can
+	add or remove objects using the \textit{addObject()}, \textit{removeObject()} and \textit{removeAllObjects()} methods.
+	Once per game loop iteration the \textit{checkCollisions()} method should be called to fire up collision callbacks
+	upon intersections detection.\\
+	
+	The collision manager has a shape catalog which is read from an XML file and provides a description of every
+	shape in the game. Every \textit{GameObject} can access this information to set up their collidable shapes
+	at construction time using the \textit{getShape()} method. During game initialization we have to read that
+	file through the \textit{initShapeCatalog()} method.\\
+	
+	We can register listener methods using the \textit{addCallback()} method. We pass a pair of game object types
+	and a type of callback (begin, during and end). This implies that that callback will be called when two
+	objects of the selected types start colliding, are colliding or stop colliding. We can also remove callbacks
+	using the \textit{removeCallback()} or \textit{removeAllCallbacks()} methods.
+	
+	\item \textbf{Sphere}: this class models a simple sphere by adding a center position and a radius.
+	
+	\item \textbf{AxisAlignedBox}: we can model axis aligned boxes by adding their minimum corner position and
+	their maximum corner position.
+	
+	\item \textbf{OrientedBox}: axis aligned bounding boxes do not provided very precise collision detection because
+	they cannot be rotated in 3D space. By applying rotations we get oriented bounding boxes.
+\end{itemize}

@@ -1,0 +1,17 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<options>
+  <!-- Window -->
+  <option name="windowWidth" value="1280" />
+  <option name="windowHeight" value="720" />
+  <option name="gameV1" value="1" />
+  <option name="gameV2" value="0" />
+  
+  <!-- Camera -->
+  <option name="distance" value="14.0" />
+  <option name="height" value="4.0" />
+  <option name="aheadDistance" value="5.0" />
+  <option name="maxRotation" value="2.5" />
+  <option name="maxAngularAcceleration" value="1.0" />
+  
+  <!-- ... -->
+</options>

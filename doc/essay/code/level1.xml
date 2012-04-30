@@ -1,0 +1,46 @@
+<scene formatVersion="1.0.0">
+  <nodes>
+    <node name="geometry.bigturn.002">
+      <position x="8.000000" y="-40.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.707107" w="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="geometry.bigturn.002" meshFile="bigturn.mesh"/>
+    </node>
+    <node name="scene.building1">
+      <position x="-30.997940" y="79.290756" z="25.111671"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="3.931125" y="3.931125" z="3.931125"/>
+      <entity name="scene.building1" meshFile="building1.mesh"/>
+    </node>
+    <node name="skybox">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="191.840958" y="191.840958" z="191.840958"/>
+      <entity name="skybox" meshFile="skybox.mesh"/>
+    </node>
+    <node name="terrain.terrain1">
+      <position x="0.000000" y="6.889897" z="-10.826504"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="terrain.terrain1" meshFile="terrain1.mesh"/>
+    </node.007 meshFile="building1.mesh"/>
+    </node>
+    <node name="time.5.004">
+      <position x="5.421383" y="-38.617031" z="2.188904"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="2.002524" y="2.002524" z="2.002524"/>
+      <entity name="time.5.004" meshFile="timebonus.mesh"/>
+    </node>
+    <node name="car">
+      <position x="-0.111348" y="-13.139041" z="-0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="car" meshFile="car.mesh"/>
+    </node>
+	<node name="checkpoint.005">
+      <position x="41.676052" y="-39.144321" z="0.861605"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.268717" w="0.963219"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="checkpoint.005" meshFile="checkpoint.mesh"/>
+    </node>
+</scene>

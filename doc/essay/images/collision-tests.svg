@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="collision-tests.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="95.304207"
+     inkscape:cy="205.28577"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1005"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 58.588848,35.13857 0,207.08127"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 31.314729,222.01679 439.416351,0"
+       id="path2987"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffad00;fill-opacity:0.68067226;stroke:#d34141;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3757"
+       sodipodi:cx="266.1752"
+       sodipodi:cy="213.4305"
+       sodipodi:rx="77.276672"
+       sodipodi:ry="77.276672"
+       d="m 343.45187,213.4305 a 77.276672,77.276672 0 1 1 -154.55334,0 77.276672,77.276672 0 1 1 154.55334,0 z"
+       transform="translate(-98.994949,-84.85281)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 12;stroke-dashoffset:0"
+       d="M 165.66502,129.08276 91.923882,148.27565"
+       id="path3765"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffad00;fill-opacity:0.68067226;stroke:#d34141;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3757-4"
+       sodipodi:cx="266.1752"
+       sodipodi:cy="213.4305"
+       sodipodi:rx="77.276672"
+       sodipodi:ry="77.276672"
+       d="m 343.45187,213.4305 a 77.276672,77.276672 0 1 1 -154.55334,0 77.276672,77.276672 0 1 1 154.55334,0 z"
+       transform="matrix(0.83330112,0,0,0.83330112,140.84066,-74.02292)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 12;stroke-dashoffset:0"
+       d="M 166.67517,129.08276 362.64476,103.82894"
+       id="path3824"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(58.588852,-26.26396)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="115.15739"
+       y="127.06246"
+       id="text3761"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202"><tspan
+         sodipodi:role="line"
+         id="tspan3763"
+         x="115.15739"
+         y="127.06246">R1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="155.26425"
+       y="111.59927"
+       id="text3761-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202"><tspan
+         sodipodi:role="line"
+         id="tspan3763-7"
+         x="155.26425"
+         y="111.59927">C1</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 12;stroke-dashoffset:0"
+       d="m 365.17014,103.32386 61.6193,14.14213"
+       id="path3765-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-9"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(254.05335,-51.01269)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="392.44427"
+       y="101.30355"
+       id="text3761-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202"><tspan
+         sodipodi:role="line"
+         id="tspan3763-8"
+         x="392.44427"
+         y="101.30355">R2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="351.73892"
+       y="85.840355"
+       id="text3761-1-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202"><tspan
+         sodipodi:role="line"
+         id="tspan3763-7-2"
+         x="351.73892"
+         y="85.840355">C2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="259.54044"
+       y="100.46413"
+       id="text3761-1-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-sphere-test.png"
+       inkscape:export-xdpi="112.65202"
+       inkscape:export-ydpi="112.65202"><tspan
+         sodipodi:role="line"
+         id="tspan3763-7-5"
+         x="259.54044"
+         y="100.46413">D</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 61.114233,322.52697 0,207.08127"
+       id="path2985-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 33.840113,509.40519 478.812297,0"
+       id="path2987-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffad00;fill-opacity:0.68067226;stroke:#d34141;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3757-7"
+       sodipodi:cx="266.1752"
+       sodipodi:cy="213.4305"
+       sodipodi:rx="77.276672"
+       sodipodi:ry="77.276672"
+       d="m 343.45187,213.4305 a 77.276672,77.276672 0 1 1 -154.55334,0 77.276672,77.276672 0 1 1 154.55334,0 z"
+       transform="translate(-96.469567,202.53559)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 12;stroke-dashoffset:0"
+       d="M 168.1904,416.47116 94.449263,435.66405"
+       id="path3765-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 12;stroke-dashoffset:0"
+       d="m 170.71578,415.461 96.97464,9.09137"
+       id="path3824-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(61.114233,261.12444)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="117.68277"
+       y="414.45087"
+       id="text3761-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38"><tspan
+         sodipodi:role="line"
+         id="tspan3763-6"
+         x="117.68277"
+         y="414.45087">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="161.78964"
+       y="398.98767"
+       id="text3761-1-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38"><tspan
+         sodipodi:role="line"
+         id="tspan3763-7-4"
+         x="161.78964"
+         y="398.98767">C</tspan></text>
+    <rect
+       style="fill:#ffad00;fill-opacity:0.68235294;stroke:#e72828;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3919"
+       width="199.00021"
+       height="80.812141"
+       x="268.70059"
+       y="400.81381"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-7"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(159.09902,324.76404)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-6"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(357.08893,247.99245)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="233.34525"
+       y="502.8392"
+       id="text3946"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38"><tspan
+         sodipodi:role="line"
+         id="tspan3948"
+         x="233.34525"
+         y="502.8392">min</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="472.7514"
+       y="390.71228"
+       id="text3950"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38"><tspan
+         sodipodi:role="line"
+         id="tspan3952"
+         x="472.7514"
+         y="390.71228">max</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="252.63031"
+       y="409.5708"
+       id="text3761-1-4-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\sphere-aabb-test.png"
+       inkscape:export-xdpi="103.38"
+       inkscape:export-ydpi="103.38"><tspan
+         sodipodi:role="line"
+         id="tspan3763-7-5-9"
+         x="252.63031"
+         y="409.5708">D</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 73.741136,572.03465 0,207.08127"
+       id="path2985-5-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 46.467016,758.91287 382.847814,0"
+       id="path2987-1-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <rect
+       style="fill:#ffad00;fill-opacity:0.68235294;stroke:#e72828;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3919-4"
+       width="199.00021"
+       height="80.812141"
+       x="117.68276"
+       y="588.70221"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-7-1"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(8.0812175,512.65241)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-6-1"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(206.07113,435.88082)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="82.327423"
+       y="690.72766"
+       id="text3946-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556"><tspan
+         sodipodi:role="line"
+         id="tspan3948-8"
+         x="82.327423"
+         y="690.72766">min1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="321.73358"
+       y="578.60071"
+       id="text3950-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556"><tspan
+         sodipodi:role="line"
+         x="321.73358"
+         y="578.60071"
+         id="tspan4065">max1</tspan><tspan
+         sodipodi:role="line"
+         x="321.73358"
+         y="598.60071"
+         id="tspan4105" /></text>
+    <rect
+       style="fill:#ffad00;fill-opacity:0.68235294;stroke:#e72828;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3919-4-7"
+       width="82.832672"
+       height="96.974586"
+       x="276.80008"
+       y="605.05878"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-7-1-9"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(165.17822,548.20186)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-6-1-3"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(251.04121,450.21706)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="291.95239"
+       y="726.2771"
+       id="text3946-3-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556"><tspan
+         sodipodi:role="line"
+         id="tspan3948-8-9"
+         x="291.95239"
+         y="726.2771">min2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="366.70364"
+       y="592.93695"
+       id="text3950-7-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556"><tspan
+         sodipodi:role="line"
+         x="366.70364"
+         y="592.93695"
+         id="tspan4065-6">max2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0"
+       d="m 275.73103,701.83925 0,57.57869"
+       id="path4107"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+       d="m 359.61431,603.85445 0,155.05842"
+       id="path4109"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+       d="m 317.1879,587.18694 0,170.71578"
+       id="path4111"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0"
+       d="m 277.28687,702.8494 -204.555887,0"
+       id="path4113"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0"
+       d="m 116.16754,668.50422 -43.436557,0"
+       id="path4115"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0"
+       d="m 317.69297,587.69201 -244.961987,0"
+       id="path4117"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0"
+       d="m 359.61431,604.86461 -285.873174,0"
+       id="path4119"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#2fe917;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.60185188;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 74.246212,587.69201 0,79.80205"
+       id="path4121"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#2fe917;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.60185188;stroke-dasharray:none"
+       d="m 113.64216,757.39764 203.04066,1.51523"
+       id="path4121-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+       d="m 115.66247,669.0093 -1.51523,88.38834"
+       id="path4107-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#17e9e5;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.5;stroke-dasharray:none"
+       d="m 73.741136,604.8646 0,95.45941"
+       id="path4121-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#17e9e5;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.5;stroke-dasharray:none"
+       d="m 357.84654,758.4078 -82.32743,0"
+       id="path4121-2-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\aabb-aabb-test.png"
+       inkscape:export-xdpi="129.29556"
+       inkscape:export-ydpi="129.29556" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 74.246216,812.39762 0,207.08128"
+       id="path2985-5-2-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 46.972096,999.27583 428.304674,0"
+       id="path2987-1-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <rect
+       style="fill:#ffad00;fill-opacity:0.68235294;stroke:#e72828;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3919-4-8"
+       width="199.00021"
+       height="80.812141"
+       x="118.18784"
+       y="829.06519"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-7-1-2"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(8.5862961,753.01538)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-6-1-9"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(206.57621,676.24378)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="82.83252"
+       y="931.09064"
+       id="text3946-3-13"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982"><tspan
+         sodipodi:role="line"
+         id="tspan3948-8-5"
+         x="82.83252"
+         y="931.09064">min1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="322.23868"
+       y="818.96368"
+       id="text3950-7-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982"><tspan
+         sodipodi:role="line"
+         x="322.23868"
+         y="818.96368"
+         id="tspan4065-8">max1</tspan><tspan
+         sodipodi:role="line"
+         x="322.23868"
+         y="838.96368"
+         id="tspan4105-4" /></text>
+    <rect
+       style="fill:#ffad00;fill-opacity:0.68235294;stroke:#e72828;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3919-4-7-0"
+       width="82.832672"
+       height="96.974586"
+       x="872.4715"
+       y="353.23172"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-7-1-9-7"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(189.92696,780.48361)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e11313;fill-opacity:1;stroke:none"
+       id="path3759-2-6-1-3-6"
+       sodipodi:cx="108.5914"
+       sodipodi:cy="154.84164"
+       sodipodi:rx="8.586297"
+       sodipodi:ry="8.586297"
+       d="m 117.1777,154.84164 a 8.586297,8.586297 0 1 1 -17.1726,0 8.586297,8.586297 0 1 1 17.1726,0 z"
+       transform="translate(315.1859,770.38207)"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="269.22397"
+       y="964.61975"
+       id="text3946-3-1-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982"><tspan
+         sodipodi:role="line"
+         id="tspan3948-8-9-6"
+         x="269.22397"
+         y="964.61975">min2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="416.70618"
+       y="905.02075"
+       id="text3950-7-8-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="G:\My Dropbox\UCA\AGP\urbanrace\essay\images\obb-obb-test.png"
+       inkscape:export-xdpi="115.56982"
+       inkscape:export-ydpi="115.56982"><tspan
+         sodipodi:role="line"
+         x="416.70618"
+         y="905.02075"
+         id="tspan4065-6-5">max2</tspan></text>
+  </g>
+</svg>

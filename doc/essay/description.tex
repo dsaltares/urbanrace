@@ -1,0 +1,60 @@
+% Description
+
+\subsection{About this document}
+
+\game\ is a time attack racing game created as an individual project for the
+Advanced Games Programming module at Kingston University. Throughout this
+report we will profusely discuss every aspect of the game's development process.
+The following bullet list summarizes the sections within this document.
+
+\begin{enumerate}
+	\item \textbf{Description}: in the current section we will explain the game
+	mechanics and provide minimal and simple user instructions.
+	\item \textbf{Design}: this block will cover the application development from
+	a software design point of view. UML classes diagrams will be provided along classes
+	description on a per component basis.
+	\item \textbf{Implementation}: the main highlights and features implementation
+	details will be explained throughout this section. Fragments of code will be
+	attached when necessary.
+	\item \textbf{Tools}: for further information purposes a list mentioning
+	every used tool during any phase of the development process will be
+	shown in this section.
+	\item \textbf{Conclusion}: brief comment about the final and submitted product.
+\end{enumerate}
+
+\subsection{Game design}
+
+\game\ is a time attack racing game for Windows although, potentially, it could be
+ported to Xbox 360 and Windows Phone 7 with minimal changes because it has been
+developed using the C\# programming language and XNA Game Studio 4.0.\\
+
+The player drives a yellow car and has to get to the goal before the time expires.
+Note that some tracks may demand more than one lap, in fact, they could ask for an
+indeterminate number of laps. The tracks are designed so they cannot be finished
+on time as they are. The player has to collect time bonuses, which are represented
+by clocks and are spreeded across the track. These bonuses give the player extra seconds,
+so he or she can finish on time.\\
+
+The game is composed by several screens connected together as shown in
+figure~\ref{fig:states}.\\
+
+\image{states.png}{scale=0.5}{Game states flow}{fig:states}{H}
+
+When \game\ is run, the track selection menu is shown and when the user chooses a track,
+the game starts. If the player finishes the track on time, the victory screen is presented,
+otherwise, the player is taken to the defeat menu. From either of those, the player
+can retry the track or go back to the main menu to select a different track. If the player
+beats his or her own record, it will be shown in a panel within the victory screen.\\
+
+During the game, the player will drive the car with simple controls: steering, thrust
+and brake. He or she basically will have to avoid crashing into the level walls to gain
+some time. For simplicity reasons, an arcade approach has been taken, meaning that no
+realistic physics has been implemented. The game is meant to be simple and fun.\\
+
+\subsection{Game controls}
+
+Inside the game menu, the player can browse different options using the \textit{arrow}
+keys and he or she can select a specific one using the \textit{enter} key. During the
+game, the controls are shown in figure~\ref{fig:controls}.
+
+\image{controls.png}{scale=0.5}{Game controls during a race}{fig:controls}{H}

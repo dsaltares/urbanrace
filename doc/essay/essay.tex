@@ -1,0 +1,71 @@
+% David Saltares Márquez (C) 2011
+
+
+\documentclass[a4paper, 11pt]{article}
+
+
+% Styles, packages and dirs
+\usepackage{baseStyle}
+\usepackage{colors}
+\usepackage{commands}
+\graphicspath{{./images/}}
+
+
+%  Document data
+
+\def \titlename{Urban Race}
+\def \subtitlename{Time attack racing game}
+\def \subsubtitlename{Report}
+\def \authorname{David Saltares Márquez}
+\def \revname{\ }
+\def \datename{}
+
+
+% Configuration
+
+\title{\titlename}
+\author{\authorname}
+
+% Key words
+\def \game{\textbf{Urban Race}}
+
+\begin{document}
+
+% Cover
+\input{cover.tex}
+
+% Index
+\tableofcontents
+\cleardoublepage
+
+\section{Description}
+\label{sec:description}
+\input{description.tex}
+
+\section{Application design}
+\label{sec:design}
+\input{design.tex}
+
+\section{Implementation}
+\label{sec:implementation}
+\input{implementation.tex}
+
+\section{Tools used}
+\label{sec:tools}
+\input{tools.tex}
+
+\section{Assets sources}
+\label{sec:assets}
+\input{assets.tex}
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{conclusion.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{is-plain}
+\bibliography{references}
+
+\end{document}

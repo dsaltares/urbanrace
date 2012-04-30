@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<options>
+  <!-- Window -->
+  <option name="windowWidth" value="1280" />
+  <option name="windowHeight" value="720" />
+  <option name="gameV1" value="1" />
+  <option name="gameV2" value="0" />
+  
+  <!-- Camera -->
+  <option name="distance" value="14.0" />
+  <option name="height" value="4.0" />
+  <option name="aheadDistance" value="5.0" />
+  <option name="maxRotation" value="2.5" />
+  <option name="maxAngularAcceleration" value="1.0" />
+  
+  <!-- Car -->
+  <option name="carMaxSpeed" value="50.0" />
+  <option name="carMaxAcceleration" value="0.8" />
+  <option name="carMaxAngularAcceleration" value="1.5" />
+  <option name="carBrake" value="0.8" />
+  <option name="carFriction" value="0.7" />
+  
+  <!-- Collision Manager -->
+  <option name="colCheckRadius" value="10.0" />
+  
+  <!-- Defeat state -->
+  <option name="defeatRetryButtonX" value="788.0" />
+  <option name="defeatRetryButtonY" value="319.0" />
+  <option name="defeatRetryTextX" value="941.0" />
+  <option name="defeatRetryTextY" value="347.0" />
+  <option name="defeatMenuButtonX" value="788.0" />
+  <option name="defeatMenuButtonY" value="468.0" />
+  <option name="defeatMenuTextX" value="871.0" />
+  <option name="defeatMenuTextY" value="497.0" />
+  
+  <!-- Victory state -->
+  <option name="victoryRetryButtonX" value="788.0" />
+  <option name="victoryRetryButtonY" value="319.0" />
+  <option name="victoryRetryTextX" value="941.0" />
+  <option name="victoryRetryTextY" value="347.0" />
+  <option name="victoryMenuButtonX" value="788.0" />
+  <option name="victoryMenuButtonY" value="468.0" />
+  <option name="victoryMenuTextX" value="871.0" />
+  <option name="victoryMenuTextY" value="497.0" />
+  <option name="victoryRecordPanelX" value="406.0" />
+  <option name="victoryRecordPanelY" value="319.0" />
+  <option name="victoryRecordTextX" value="464.0" />
+  <option name="victoryRecordTextY" value="348.0" />
+  <option name="victoryRecordNumberX" value="454.0" />
+  <option name="victoryRecordNumberY" value="446.0" />
+
+  <!-- Game state -->
+  <option name="gameSpeedPanelX" value="972.0" />
+  <option name="gameSpeedPanelY" value="614.0" />
+  <option name="gameSpeedTextX" value="996.0" />
+  <option name="gameSpeedTextY" value="626.0" />
+  <option name="gameLapsPanelX" value="25.0" />
+  <option name="gameLapsPanelY" value="20.0" />
+  <option name="gameLapsText1X" value="60.0" />
+  <option name="gameLapsText1Y" value="35.0" />
+  <option name="gameLapsText2X" value="160.0" />
+  <option name="gameLapsText2Y" value="30.0" />
+  <option name="gameTimePanelX" value="25.0" />
+  <option name="gameTimePanelY" value="614.0" />
+  <option name="gameTimeTextX" value="45.0" />
+  <option name="gameTimeTextY" value="626.0" />
+  
+  <!-- Menu state -->
+  <option name="menuRightArrowX" value="1134.0" />
+  <option name="menuRightArrowY" value="444.0" />
+  <option name="menuLeftArrowX" value="730.0" />
+  <option name="menuLeftArrowY" value="444.0" />
+  <option name="menuSelectTrackX" value="744.0" />
+  <option name="menuSelectTrackY" value="295.0" />
+  <option name="menuTrackNameX" value="875.0" />
+  <option name="menuTrackNameY" value="365.0" />
+  <option name="menuTrackPanelX" value="809.0" />
+  <option name="menuTrackPanelY" value="398.0" />
+  <option name="menuRecordX" value="815.0" />
+  <option name="menuRecordY" value="600.0" />
+</options>

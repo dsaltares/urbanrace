@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="collisions.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3767"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;">
+      <path
+         id="path3773"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path3785"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3764"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path3776"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         id="path3770"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3758"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3764-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3785-9"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3764-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3785-6"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3767-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="373.86646"
+     inkscape:cy="206.44273"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1005"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffb311;fill-opacity:0.21296297;stroke:#555555;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6614"
+       width="402.34375"
+       height="188.08179"
+       x="138.59293"
+       y="753.96313"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#2229b8;stroke-width:2.77994251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow2Mend)"
+       d="m 107.33712,49.573914 0,194.465496 397.93408,0"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff9c00;fill-opacity:0.55042019;stroke:#fa1811;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5507"
+       sodipodi:cx="189.40359"
+       sodipodi:cy="427.58282"
+       sodipodi:rx="98.489868"
+       sodipodi:ry="98.489868"
+       d="m 287.89346,427.58282 a 98.489868,98.489868 0 1 1 -196.979733,0 98.489868,98.489868 0 1 1 196.979733,0 z"
+       transform="matrix(0.69498565,0,0,0.69498565,73.515662,-129.99807)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff9c00;fill-opacity:0.55042019;stroke:#fa1811;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5507-1"
+       sodipodi:cx="189.40359"
+       sodipodi:cy="427.58282"
+       sodipodi:rx="125.76399"
+       sodipodi:ry="125.76399"
+       d="m 315.16759,427.58282 a 125.76399,125.76399 0 1 1 -251.527987,0 125.76399,125.76399 0 1 1 251.527987,0 z"
+       transform="matrix(0.69498565,0,0,0.69498565,210.06274,-158.43074)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,38.764598,-21.532653)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-7"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,175.31168,-49.965322)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="M 205.49947,167.16587 342.74859,139.0842"
+       id="path5553"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="183.73618"
+       y="166.81487"
+       id="text5555"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5557"
+         x="183.73618"
+         y="166.81487"
+         style="font-size:13.89971256px">c<tspan
+   style="font-size:9.03494072px;baseline-shift:sub"
+   id="tspan5561">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="335.21301"
+       y="127.33874"
+       id="text5555-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5557-0"
+         x="335.21301"
+         y="127.33874"
+         style="font-size:13.89971256px">c<tspan
+   style="font-size:9.03494072px;baseline-shift:sub"
+   id="tspan5671">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="242.20045"
+       y="536.95154"
+       id="text5555-48"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5557-8"
+         x="0"
+         y="0"
+         style="font-size:20px"><tspan
+           style="font-size:65.00091553%;baseline-shift:sub"
+           id="tspan5561-2"><tspan
+             id="tspan5645" /></tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="338.02121"
+       y="190.17145"
+       id="text5555-45"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5557-5"
+         x="338.02121"
+         y="190.17145"
+         style="font-size:13.89971256px;baseline-shift:sub">r<tspan
+   style="font-size:9.03494072px;baseline-shift:sub"
+   id="tspan5669">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="258.88275"
+       y="149.84991"
+       id="text5555-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5557-1"
+         x="258.88275"
+         y="149.84991"
+         style="font-size:13.89971256px">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="203.81458"
+       y="202.89977"
+       id="text5663"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5665"
+         x="203.81458"
+         y="202.89977"
+         style="font-size:13.89971256px">r<tspan
+   style="font-size:9.72979927px;baseline-shift:sub"
+   id="tspan5667">1</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="m 204.8062,167.39704 -29.53689,60.46375"
+       id="path5673"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="m 342.41336,138.55514 33.01182,79.92335"
+       id="path5675"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="489.82629"
+       y="227.47127"
+       id="text5677"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5679"
+         x="489.82629"
+         y="227.47127"
+         style="font-size:16.67965508px">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="129.46819"
+       y="60.458015"
+       id="text5677-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-sphere.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5679-3"
+         x="129.46819"
+         y="60.458015"
+         style="font-size:16.67965508px">Y</tspan></text>
+    <path
+       style="fill:none;stroke:#2229b8;stroke-width:2.77994251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow2Mend)"
+       d="m 110.31708,297.69019 0,194.46549 397.93408,0"
+       id="path2985-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff9c00;fill-opacity:0.55042019;stroke:#fa1811;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5507-3"
+       sodipodi:cx="189.40359"
+       sodipodi:cy="427.58282"
+       sodipodi:rx="98.489868"
+       sodipodi:ry="98.489868"
+       d="m 287.89346,427.58282 a 98.489868,98.489868 0 1 1 -196.979733,0 98.489868,98.489868 0 1 1 196.979733,0 z"
+       transform="matrix(0.69498565,0,0,0.69498565,76.495627,118.1182)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-2"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,41.744559,226.58362)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="186.71613"
+       y="414.93115"
+       id="text5555-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5557-6"
+         x="186.71613"
+         y="414.93115"
+         style="font-size:13.89971256px">c<tspan
+   style="font-size:9.03494072px;baseline-shift:sub"
+   id="tspan5561-5">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="206.79456"
+       y="451.01602"
+       id="text5663-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5665-6"
+         x="206.79456"
+         y="451.01602"><tspan
+           style="font-size:13.89971256px"
+           id="tspan6132">r</tspan><tspan
+           style="font-size:9.72979927px;baseline-shift:sub"
+           id="tspan5667-0">1</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="m 207.78616,415.51331 -29.53689,60.46375"
+       id="path5673-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="492.80624"
+       y="475.58752"
+       id="text5677-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5679-7"
+         x="492.80624"
+         y="475.58752"
+         style="font-size:16.67965508px">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="132.44814"
+       y="308.57428"
+       id="text5677-9-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5679-3-7"
+         x="132.44814"
+         y="308.57428"
+         style="font-size:16.67965508px">Y</tspan></text>
+    <rect
+       style="fill:#ff9d00;fill-opacity:0.54901961;stroke:#fa1811;stroke-width:2.77994251;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6134"
+       width="232.44595"
+       height="110.08011"
+       x="248.53462"
+       y="324.28275"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-2-3"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,314.10529,135.09282)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-2-35"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,83.133628,244.19007)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="486.38626"
+       y="313.47131"
+       id="text6161"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan6163"
+         x="486.38626"
+         y="313.47131"
+         style="font-size:13.89971256px">max</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="256.39749"
+       y="426.00858"
+       id="text6165"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan6167"
+         x="256.39749"
+         y="426.00858"
+         style="font-size:13.89971256px">min</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="M 250.03447,433.12531 208.21185,415.94326"
+       id="path5673-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="226.25981"
+       y="418.12482"
+       id="text5555-7-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\sphere-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5557-1-8"
+         x="226.25981"
+         y="418.12482"
+         style="font-size:13.89971256px">d</tspan></text>
+    <path
+       style="fill:none;stroke:#2229b8;stroke-width:2.77994251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow2Mend)"
+       d="m 112.45885,519.3247 0,194.46549 397.93409,0"
+       id="path2985-7-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="494.94803"
+       y="697.22205"
+       id="text5677-7-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5679-7-3"
+         x="494.94803"
+         y="697.22205"
+         style="font-size:16.67965508px">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="134.58989"
+       y="530.2088"
+       id="text5677-9-7-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan5679-3-7-1"
+         x="134.58989"
+         y="530.2088"
+         style="font-size:16.67965508px">Y</tspan></text>
+    <rect
+       style="fill:#ff9d00;fill-opacity:0.54901961;stroke:#fa1811;stroke-width:2.77994251;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6134-2"
+       width="171.99959"
+       height="102.70811"
+       x="313.08789"
+       y="535.10583"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-2-3-0"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,316.24705,348.37303)"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-2-35-1"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,146.2126,445.67599)"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="488.52808"
+       y="535.10583"
+       id="text6161-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan6163-4"
+         x="488.52808"
+         y="535.10583"
+         style="font-size:13.89971256px">max1</tspan></text>
+    <rect
+       style="fill:#ff9d00;fill-opacity:0.54901961;stroke:#fa1811;stroke-width:2.77994251;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6134-2-8"
+       width="191.16595"
+       height="86.491608"
+       x="153.89632"
+       y="600.09052"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="m 345.34614,599.23734 0,113.02861"
+       id="path6459-3-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="280.16214"
+       y="621.59735"
+       id="text6165-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan6167-6"
+         x="280.16214"
+         y="621.59735"
+         style="font-size:13.89971256px">min1</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-2-3-0-4"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,178.6784,412.86627)"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5529-2-35-1-1"
+       sodipodi:cx="239.40616"
+       sodipodi:cy="271.51425"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m 248.49753,271.51425 a 9.0913725,9.0913725 0 1 1 -0.007,-0.35439"
+       sodipodi:start="0"
+       sodipodi:end="6.2441943"
+       sodipodi:open="true"
+       transform="matrix(0.69498565,0,0,0.69498565,-12.48751,498.86636)"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="321.47366"
+       y="592.71906"
+       id="text6161-6-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan6163-4-3"
+         x="321.47366"
+         y="592.71906"
+         style="font-size:13.89971256px">max1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.11977005px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="157.33633"
+       y="677.73633"
+       id="text6165-0-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285"><tspan
+         sodipodi:role="line"
+         id="tspan6167-6-8"
+         x="157.33633"
+         y="677.73633"
+         style="font-size:13.89971256px">min1</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.16991388, 4.16991388;stroke-dashoffset:0"
+       d="m 313.40325,535.59726 -201.48592,0"
+       id="path6407"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.16991388, 4.16991388;stroke-dashoffset:0"
+       d="m 313.89467,634.3745 -201.48591,0"
+       id="path6407-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.16991388, 4.16991388;stroke-dashoffset:0"
+       d="m 154.67166,599.97446 -42.75433,0"
+       id="path6407-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.16991388, 4.16991388;stroke-dashoffset:0"
+       d="m 153.75726,687.0075 -42.75433,0"
+       id="path6407-8-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="m 484.82768,536.08868 0,177.89729"
+       id="path6459"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="m 312.91182,633.88308 0,80.10289"
+       id="path6459-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38997126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.55988517, 1.38997129;stroke-dashoffset:0"
+       d="m 154.18023,686.95743 -0.49143,27.02854"
+       id="path6459-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:#fa1811;fill-opacity:1;stroke:#fad211;stroke-width:3.47492814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.60084031;stroke-dasharray:none"
+       d="m 112.40876,599.48303 -0.98286,86.98295"
+       id="path6522"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:#fa1811;fill-opacity:1;stroke:#fad211;stroke-width:3.47492814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.66806724;stroke-dasharray:none"
+       d="M 344.36328,713.24887 152.70594,712.75744"
+       id="path6522-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:#fa1811;fill-opacity:1;stroke:#e617d1;stroke-width:3.47492814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.40336136;stroke-dasharray:none"
+       d="m 112.40876,535.84297 0,98.77724"
+       id="path6522-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:#fa1811;fill-opacity:1;stroke:#e617d1;stroke-width:3.47492814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.40336136;stroke-dasharray:none"
+       d="m 484.42056,712.26602 -172.00017,1.9657"
+       id="path6522-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\aabb-aabb.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <rect
+       style="fill:#afafaf;fill-opacity:0.54901961;stroke:#555555;stroke-width:2.77994251;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6134-2-9"
+       width="31.992445"
+       height="218.45789"
+       x="106.33324"
+       y="755.64209"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <rect
+       style="fill:#afafaf;fill-opacity:0.54901961;stroke:#555555;stroke-width:2.77994251;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6134-2-9-6"
+       width="435.04343"
+       height="31.99758"
+       x="106.33326"
+       y="941.89539"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#47d415;fill-opacity:0.4861111;stroke:#1a7f00;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5507-3-5"
+       sodipodi:cx="189.40359"
+       sodipodi:cy="427.58282"
+       sodipodi:rx="60.844559"
+       sodipodi:ry="60.844559"
+       d="m 250.24815,427.58282 a 60.844559,60.844559 0 1 1 -121.68911,0 60.844559,60.844559 0 1 1 121.68911,0 z"
+       transform="matrix(0.69498565,0,0,0.69498565,238.18406,517.61038)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:#1a7f00;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 369.8125 811.28125 C 367.88506 811.28125 366.3125 812.85381 366.3125 814.78125 C 366.3125 816.70869 367.88506 818.25 369.8125 818.25 C 371.73994 818.25 373.3125 816.70869 373.3125 814.78125 L 373.3125 814.625 C 373.23943 812.75191 371.68702 811.28125 369.8125 811.28125 z "
+       id="path5529-2-1"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#47d415;fill-opacity:0.48611109;stroke:#1a7f00;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5507-3-5-0"
+       sodipodi:cx="189.40359"
+       sodipodi:cy="427.58282"
+       sodipodi:rx="60.844559"
+       sodipodi:ry="60.844559"
+       d="m 250.24815,427.58282 a 60.844559,60.844559 0 1 1 -121.68911,0 60.844559,60.844559 0 1 1 121.68911,0 z"
+       transform="matrix(0.69498565,0,0,0.69498565,-8.63278,587.19826)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#1a7f00;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 122.99566,880.86912 c -1.92744,0 -3.5,1.57256 -3.5,3.5 0,1.92744 1.57256,3.46875 3.5,3.46875 1.92744,0 3.5,-1.54131 3.5,-3.46875 l 0,-0.15625 c -0.0731,-1.87309 -1.62548,-3.34375 -3.5,-3.34375 z"
+       id="path5529-2-1-9"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff9d00;fill-opacity:0.78240739999999998;stroke:#fa1811;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5507-3-5-9"
+       sodipodi:cx="189.40359"
+       sodipodi:cy="427.58282"
+       sodipodi:rx="60.844559"
+       sodipodi:ry="60.844559"
+       d="m 250.24815,427.58282 a 60.844559,60.844559 0 1 1 -121.68911,0 60.844559,60.844559 0 1 1 121.68911,0 z"
+       transform="matrix(0.69498565,0,0,0.69498565,50.367219,587.19826)"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#fa1811;fill-opacity:1;stroke:#fa1811;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 181.99566,880.86912 c -1.92744,0 -3.5,1.57256 -3.5,3.5 0,1.92744 1.57256,3.46875 3.5,3.46875 1.92744,0 3.5,-1.54131 3.5,-3.46875 l 0,-0.15625 c -0.0731,-1.87309 -1.62548,-3.34375 -3.5,-3.34375 z"
+       id="path5529-2-1-6"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.17,4.17;stroke-dashoffset:0;marker-end:url(#Arrow1Mend)"
+       d="M 370.68792,815.12785 123.22618,885.13142"
+       id="path6407-8-3-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.38999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.17, 4.17;stroke-dashoffset:0;marker-end:url(#Arrow1Mend)"
+       d="m 123.87232,885.45631 57.65484,0"
+       id="path6407-8-3-8-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\fps-psp\essay\images\sliding.png"
+       inkscape:export-xdpi="120.70285"
+       inkscape:export-ydpi="120.70285" />
+  </g>
+</svg>

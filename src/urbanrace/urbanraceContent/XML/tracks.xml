@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<tracks>
+  <track name="Beginner's track"
+         file="level1.xml"
+         image="track01"
+         time="20"
+         record="0"
+         song="game"
+         laps="3" />
+  
+  <track name="Jerez tribute"
+         file="level2.xml"
+         image="track02"
+         time="120"
+         record="0"
+         song="game"
+         laps="3" />
+  
+  <track name="Montmelo souvenir"
+         file="level3.xml"
+         image="track03"
+         time="145"
+         record="0"
+         song="game"
+         laps="3" />
+</tracks>

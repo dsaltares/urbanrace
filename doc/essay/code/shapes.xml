@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<shapes>
+  <shape name="wall" type="obb">
+    <min x="-0.10" y="-8.00" z="-0.5" />
+    <max x="0.10" y="8.00" z="1.00" />
+  </shape>
+  <shape name="Lamborghini" type="obb">
+    <min x="-1.40" y="-3.60" z="0" />
+    <max x="1.40" y="3.60" z="1.6" />
+  </shape>
+  <shape name="timebonus" type="obb">
+    <min x="-0.7" y="-0.25" z="-0.7" />
+    <max x="0.7" y="0.25" z="0.7" />
+  </shape>
+  <shape name="checkpoint" type="obb">
+    <min x="-15.0" y="-1.0" z="-1.0" />
+    <max x="15.0" y="1.0" z="1.0" />
+  </shape>
+</shapes>
