@@ -1,4 +1,4 @@
-#Urban Race#
+# Urban Race
 
 ![Urban Race](https://raw.github.com/siondream/urbanrace/master/web/urbanrace.jpg)
 
@@ -9,7 +9,7 @@ game console.
 It was written in over a month as an assignment for the Advanced Games Programming module at Kingston
 University London.
 
-###Features###
+### Features
 
 * 3 different tracks
 * Beat your own record
@@ -19,6 +19,6 @@ University London.
 * Terrain
 * Realistic car engine sound
 
-###Download###
+### Download
 
 * [Urban Race 1.0 for Windows](https://github.com/downloads/siondream/urbanrace/urbanrace-1.0-win.zip)
